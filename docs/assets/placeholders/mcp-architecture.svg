@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">MCP architecture placeholder</title>
+  <desc id="desc">Stylized placeholder for an MCP architecture diagram or screenshot.</desc>
+  <rect width="1600" height="900" rx="36" fill="#f7f3eb"/>
+  <rect x="80" y="290" width="360" height="260" rx="34" fill="#1c7283"/>
+  <rect x="620" y="250" width="360" height="340" rx="34" fill="#fff" stroke="#d8d0c2" stroke-width="4"/>
+  <rect x="1160" y="290" width="360" height="260" rx="34" fill="#bb5a3c"/>
+  <path d="M460 420 C520 420 540 420 600 420" stroke="#14363f" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M1000 420 C1060 420 1080 420 1140 420" stroke="#14363f" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <polygon points="585,395 640,420 585,445" fill="#14363f"/>
+  <polygon points="1125,395 1180,420 1125,445" fill="#14363f"/>
+  <text x="260" y="430" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="54" fill="#fffaf2">Client</text>
+  <text x="800" y="390" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="54" fill="#14363f">MCP Server</text>
+  <text x="800" y="470" text-anchor="middle" font-family="Manrope, Arial, sans-serif" font-size="30" fill="#14363f">tools</text>
+  <text x="800" y="520" text-anchor="middle" font-family="Manrope, Arial, sans-serif" font-size="30" fill="#14363f">resources</text>
+  <text x="800" y="570" text-anchor="middle" font-family="Manrope, Arial, sans-serif" font-size="30" fill="#14363f">prompts</text>
+  <text x="1340" y="430" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="54" fill="#fffaf2">APIs</text>
+  <text x="800" y="820" text-anchor="middle" font-family="Manrope, Arial, sans-serif" font-size="36" fill="#14363f">Replace with your own architecture screenshot or polished diagram</text>
+</svg>
