@@ -10,7 +10,7 @@ Participants understand the shape of moving from a local server to a hosted endp
 ![](../assets/placeholders/azure-deploy.svg)
 :::
 
-```mermaid
+```{mermaid}
 flowchart LR
     A(Local project) --> B(Container image)
     B --> C(Container Apps)

@@ -24,7 +24,7 @@ Attendees understand why a web source becomes a durable knowledge base when a si
 :::
 ::::
 
-```mermaid
+```{mermaid}
 flowchart LR
     A(Public page) --> B(Index content)
     B --> C(Create knowledge source)

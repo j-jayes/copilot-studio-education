@@ -26,7 +26,7 @@ Which tasks require approval, logging, or human review.
 :::
 ::::
 
-```mermaid
+```{mermaid}
 flowchart TD
     A(Find a pain point) --> B(Name the user)
     B --> C(Name the needed data)

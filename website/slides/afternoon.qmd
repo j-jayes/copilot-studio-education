@@ -5,9 +5,6 @@ author: "Course delivery kit"
 format:
   revealjs:
     footer: "Copilot Studio Education | MCP build track"
-title-slide-attributes:
-  data-background-gradient: "linear-gradient(135deg, #14363f, #1c7283 52%, #bb5a3c)"
-  data-background-opacity: "0.95"
 ---
 
 ## The afternoon should make MCP feel buildable
@@ -22,7 +19,7 @@ Set the expectation: this is not protocol theory. This is a build story from Pyt
 
 ## One architecture picture beats a long definition
 
-```mermaid
+```{mermaid}
 flowchart LR
     A(Copilot Studio) --> B(Remote MCP endpoint)
     B --> C(FastMCP server)
@@ -161,7 +158,7 @@ Emphasize that abstractions are helping us teach the right layer first, not hidi
 
 ## Two small tools are enough for a walkthrough
 
-```mermaid
+```{mermaid}
 flowchart LR
     A(Lookup tool) --> C(Useful demo)
     B(Status or data tool) --> C
@@ -202,7 +199,7 @@ Say clearly that a bad local loop becomes a worse cloud loop. Validate discovera
 
 ## Deployment should feel like packaging, not magic
 
-```mermaid
+```{mermaid}
 flowchart LR
     A(Local project) --> B(Container image)
     B --> C(Container Apps)
@@ -223,7 +220,7 @@ Replace this placeholder with your own Azure screenshot if you have one. Use it 
 
 ## Connection back to Copilot Studio closes the loop
 
-```mermaid
+```{mermaid}
 flowchart LR
     A(Hosted server) --> B(Connection setup)
     B --> C(Agent can call tools)

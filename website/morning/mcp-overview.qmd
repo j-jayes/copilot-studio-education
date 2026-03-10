@@ -10,7 +10,7 @@ Attendees leave the morning knowing what MCP is for, without needing implementat
 ![](../assets/placeholders/mcp-architecture.svg)
 :::
 
-```mermaid
+```{mermaid}
 flowchart LR
     A(Client) --> B(Server)
     B --> C(Tools)

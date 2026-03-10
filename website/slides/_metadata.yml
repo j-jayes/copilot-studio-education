@@ -3,6 +3,7 @@ format:
     theme:
       - default
       - ../assets/custom.scss
+    mermaid-format: svg
     slide-number: true
     progress: true
     history: false

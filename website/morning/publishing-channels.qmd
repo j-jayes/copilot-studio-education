@@ -26,7 +26,7 @@ Important before any wider rollout.
 :::
 ::::
 
-```mermaid
+```{mermaid}
 flowchart LR
     A(Build agent) --> B(Test agent)
     B --> C(Review permissions)

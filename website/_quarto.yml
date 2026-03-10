@@ -13,6 +13,7 @@ website:
   title: "Copilot Studio Education"
   page-navigation: true
   back-to-top-navigation: true
+  favicon: assets/favicon.ico
   navbar:
     background: "#f7f3eb"
     left:
@@ -75,6 +76,7 @@ format:
     theme:
       - cosmo
       - assets/custom.scss
+    mermaid-format: svg
     css: styles.css
     toc: true
     toc-depth: 3

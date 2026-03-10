@@ -32,7 +32,7 @@ Summaries, bullet points, and short follow-up questions create better first demo
 Start with role, goals, and boundaries. Then test with three realistic prompts before refining anything else.
 :::
 
-```mermaid
+```{mermaid}
 flowchart TD
     A(Role) --> B(Goals)
     B --> C(Boundaries)

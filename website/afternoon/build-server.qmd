@@ -6,7 +6,7 @@ title: "Two small tools are enough to teach the pattern"
 
 Advanced users see how plain Python functions become discoverable MCP tools.
 
-```mermaid
+```{mermaid}
 flowchart TD
     A(Python function) --> B(Type hints)
     B --> C(Docstring)

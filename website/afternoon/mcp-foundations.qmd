@@ -10,7 +10,7 @@ Participants understand the small number of protocol concepts that matter for bu
 ![](../assets/placeholders/mcp-architecture.svg)
 :::
 
-```mermaid
+```{mermaid}
 flowchart LR
     A(Client) --> B(MCP server)
     B --> C(Tool)

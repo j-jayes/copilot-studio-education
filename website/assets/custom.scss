@@ -1,54 +1,291 @@
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;500;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:300, 300i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
+
 
 /*-- scss:defaults --*/
-$body-bg: #f7f3eb;
-$body-color: #1f2a30;
-$link-color: #1c7283;
-$primary: #1c7283;
-$secondary: #d9e4d0;
-$success: #698f61;
-$info: #2f8ea3;
-$warning: #d58a2c;
-$danger: #bb5a3c;
-$light: #fffaf2;
-$dark: #1f2a30;
-$code-bg: #f1ece2;
-$code-color: #7a3119;
-$font-family-sans-serif: "Manrope", sans-serif;
-$font-family-monospace: "IBM Plex Mono", monospace;
-$headings-font-family: "Fraunces", serif;
-$headings-font-weight: 700;
-$navbar-bg: rgba(247, 243, 235, 0.9);
-$presentation-heading-color: #14363f;
-$presentation-font-size-root: 34px;
-$presentation-line-height: 1.25;
-$presentation-title-slide-text-align: left;
+
+$theme: "simplex" !default;
+
+//
+// Color system
+//
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #ddd !default;
+$gray-300: #ccc !default;
+$gray-400: #bbb !default;
+$gray-500: #adb5bd !default;
+$gray-600: #777 !default;
+$gray-700: #444 !default;
+$gray-800: #373a3c !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #9b479f !default;
+$pink:    #e83e8c !default;
+$red:     #d9230f !default;
+$orange:  #d9831f !default;
+$yellow:  #ffc107 !default;
+$green:   #469408 !default;
+$teal:    #20c997 !default;
+$cyan:    #029acf !default;
+
+$primary:       #2b8cbe !default;
+$secondary:     #DEEBF7 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $orange !default;
+$danger:        $purple !default;
+$light:         $white !default;
+$dark:          $gray-800 !default;
+
+$min-contrast-ratio:   2.8 !default;
+
+// Body
+
+$body-bg:                   mix($white, $black, 99%) !default;
+$navbar-bg:                 $body-bg !default;
+
+$enable-shadows: true !default;
+
+// Fonts
+
+// stylelint-disable-next-line value-keyword-case
+$font-family-sans-serif:    Noto Serif JP !default;
+$font-family-monospace:     IBM Plex Mono !default;
+$font-family-base:          Lato !default;
+
+$headings-margin-bottom:    1.5rem !default;
+
+
+$font-size-base: 1.1rem !default;
+$body-color: #404040 !default;
+$headings-color: #2b8cbe !default;
+$headings-font-weight: 300 !default;
+
+// Mermaid
+
+$mermaid-bg-color: $body-bg !default;
+$mermaid-edge-color: $gray-700 !default;
+$mermaid-fg-color: $body-color !default;
+$mermaid-label-bg-color: $body-bg !default;
+$mermaid-label-fg-color: $primary !default;
+$mermaid-node-bg-color: rgba($primary, 0.10) !default;
+$mermaid-node-fg-color: $primary !default;
+$mermaid-font-family: $font-family-base !default;
+
+
+
+// Dropdowns
+
+$dropdown-link-hover-color:         $white !default;
+$dropdown-link-hover-bg:            $primary !default;
+
+// Navs
+
+$nav-link-padding-y:                .9rem !default;
+$nav-link-disabled-color:           $gray-400 !default;
+$nav-tabs-border-color:             mix($white, $black, 93.5%) !default;
+
+// Navbar
+
+$navbar-dark-color:                 rgba($white, .75) !default;
+$navbar-dark-hover-color:           $white !default;
+
+// Pagination
+
+$pagination-border-color:           $nav-tabs-border-color !default;
+$pagination-hover-color:            $white !default;
+$pagination-hover-bg:               $primary !default;
+$pagination-hover-border-color:     $primary !default;
+$pagination-disabled-color:         $gray-400 !default;
+$pagination-disabled-border-color:  $pagination-border-color !default;
+
+// Cards
+
+$card-border-color:                 $nav-tabs-border-color !default;
+
+// Popovers
+
+$popover-border-color:              $nav-tabs-border-color !default;
+
+// Modals
+
+$modal-content-border-color:        $nav-tabs-border-color !default;
+$modal-header-border-color:         $nav-tabs-border-color !default;
+
+// Progress bars
+
+$progress-bar-color:                $primary !default;
+
+// List group
+
+$list-group-border-color:           $nav-tabs-border-color !default;
+$list-group-disabled-bg:            $nav-tabs-border-color !default;
+
+// Breadcrumbs
+
+$breadcrumb-padding-y:              .375rem !default;
+$breadcrumb-padding-x:              .75rem !default;
+$breadcrumb-border-radius:          .25rem !default;
+
+
 
 /*-- scss:rules --*/
-body {
-  text-wrap: pretty;
+
+
+// Variables
+
+$web-font-path: "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" !default;
+@if $web-font-path {
+  @import url($web-font-path);
 }
 
-h1, h2, h3, h4 {
-  letter-spacing: -0.02em;
+// Mixins
+
+@mixin btn-shadow($color){
+  background-image: linear-gradient(
+    to bottom,
+    tint-color($color, 6%) 0%,
+    $color 6%,
+    shade-color($color, 6%) 100%
+  );
+  filter: none;
+  border: 1px solid shade-color($color, 13%);
 }
 
-.reveal .slide h1,
-.reveal .slide h2,
-.reveal .slide h3 {
-  letter-spacing: -0.03em;
+// Navbar
+
+.navbar {
+  border-width: 1px;
+  border-style: solid;
+  border-color: shade-color($navbar-bg, 13%);
+
+  &-fixed-top {
+    border-width: 0 0 1px;
+  }
+
+  &-fixed-bottom {
+    border-top-width: 1px 0 0 0;
+    border-style: solid;
+  }
+
+  &.bg-primary {
+    background-color: $primary !important;
+    border-color: shade-color($primary, 13%) !important;
+  }
+
+  &.bg-dark {
+    border-color: shade-color($dark, 13%) !important;
+  }
+
+  &.bg-light {
+    border-color: shade-color($white, 13%);
+  }
 }
 
-.reveal .slide blockquote {
-  border-left: 6px solid $danger;
-  background: rgba(255, 250, 242, 0.75);
-  padding: 0.75rem 1rem;
+// Buttons
+
+.btn-primary,
+.btn-primary:hover {
+  @include btn-shadow($primary);
 }
 
-.reveal .slide .callout {
-  border-radius: 16px;
+.btn-secondary,
+.btn-secondary:hover {
+  @include btn-shadow($secondary);
 }
+
+.btn-secondary:focus,
+.btn-secondary:not([disabled]):not(.disabled):active,
+.btn-secondary:not([disabled]):not(.disabled).active {
+  box-shadow: 0 0 0 .2rem rgba($gray-200, .5);
+}
+
+.btn-success,
+.btn-success:hover {
+  @include btn-shadow($success);
+}
+
+.btn-info,
+.btn-info:hover {
+  @include btn-shadow($info);
+}
+
+.btn-warning,
+.btn-warning:hover {
+  @include btn-shadow($warning);
+}
+
+.btn-danger,
+.btn-danger:hover {
+  @include btn-shadow($danger);
+}
+
+.btn-dark,
+.btn-dark:hover {
+  @include btn-shadow($dark);
+}
+
+.btn-light,
+.btn-light:hover {
+  @include btn-shadow($light);
+}
+
+.btn-outline-secondary {
+  border-color: $gray-400;
+  color: $gray-400;
+
+  &:hover {
+    background-color: $gray-400;
+    color: $white;
+  }
+}
+
+// Typography
+
+.text-secondary {
+  color: $gray-600 !important;
+}
+
+// Forms
+
+legend,
+label {
+  color: $headings-color;
+}
+
+// Navs
+
+.breadcrumb {
+  border: 1px solid shade-color($white, 13%);
+}
+
+.pagination {
+  .page-link:hover {
+    text-decoration: none;
+  }
+}
+
+// Indicators
+
+.badge {
+  &.bg-secondary,
+  &.bg-light {
+    color: $dark;
+  }
+}
+
+// Reveal tweaks that preserve the site theme rather than replacing it.
 
 .reveal .slide code {
   font-size: 0.88em;
+}
+
+.reveal .slide .callout {
+  border-radius: 0.35rem;
 }

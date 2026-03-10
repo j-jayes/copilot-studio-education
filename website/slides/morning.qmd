@@ -2,9 +2,6 @@
 title: "Morning Session"
 subtitle: "Copilot Studio fundamentals for all attendees"
 author: "Course delivery kit"
-title-slide-attributes:
-  data-background-gradient: "linear-gradient(135deg, #14363f, #1c7283 55%, #bb5a3c)"
-  data-background-opacity: "0.92"
 ---
 
 ## A fast first win changes the room
@@ -19,7 +16,7 @@ Open with momentum. The point of the morning is not depth. It is confidence. Tel
 
 ## Sign-in should feel easy
 
-```mermaid
+```{mermaid}
 flowchart LR
 	A(Access workspace) --> B(Open Copilot Studio)
 	B --> C(Find create and test areas)
@@ -157,7 +154,7 @@ Keep the class aligned by giving structured choice rather than open-ended choice
 
 ## Grounding works when the source is clean
 
-```mermaid
+```{mermaid}
 flowchart LR
 	A(Clean source) --> B(Better retrieval)
 	B --> C(Better answers)
@@ -198,7 +195,7 @@ Use a boring but factual page. Avoid marketing-heavy pages because they distract
 
 ## MCP should feel useful before it feels technical
 
-```mermaid
+```{mermaid}
 flowchart LR
 	A(Client) --> B(Server)
 	B --> C(Tools)
@@ -218,7 +215,7 @@ Do not teach implementation here. This is just a bridge to the afternoon build t
 
 ## Publishing turns a private demo into a shared tool
 
-```mermaid
+```{mermaid}
 flowchart LR
 	A(Build) --> B(Test)
 	B --> C(Review)

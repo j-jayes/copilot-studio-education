@@ -24,7 +24,7 @@ By the end of this step, every attendee should be signed in, oriented, and ready
 Narrate the interface in terms of intent: where to create, where to ground, where to test, and where to publish.
 :::
 
-```mermaid
+```{mermaid}
 flowchart LR
     A(Access workspace) --> B(Open Copilot Studio)
     B --> C(Scan the left navigation)
