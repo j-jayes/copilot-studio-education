@@ -1,0 +1,18 @@
+---
+title: "Copy and Paste"
+---
+
+## Purpose
+
+This section is the attendee-facing shortcut library. The raw source files live in `attendee-assets/` so the website can stay aligned with the lab files.
+
+## Starter Snippets
+
+- `attendee-assets/agent-instructions/first-agent.md`
+- `attendee-assets/agent-instructions/file-grounding.md`
+- `attendee-assets/prompts/brainstorming-prompts.md`
+- `attendee-assets/channels/publish-checklist.md`
+
+## Authoring Rule
+
+Whenever we add a new snippet for class, we should add it to `attendee-assets/` first and then surface it here.

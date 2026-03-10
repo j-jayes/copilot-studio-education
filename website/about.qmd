@@ -1,0 +1,15 @@
+---
+title: "About"
+---
+
+This site is the source material for a reusable Copilot Studio training day.
+
+It combines:
+
+- Quarto website pages
+- Revealjs presentations
+- attendee-ready copy and paste snippets
+- starter MCP server projects in Python
+- deployment notes for Azure Container Apps
+
+The examples are intentionally practical, public, and easy to adapt for future deliveries.

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Copilot Studio UI placeholder</title>
+  <desc id="desc">Stylized placeholder for a Copilot Studio screenshot.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1c7283"/>
+      <stop offset="100%" stop-color="#bb5a3c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" rx="36" fill="#f7f3eb"/>
+  <rect x="28" y="28" width="1544" height="844" rx="28" fill="url(#bg)" opacity="0.14"/>
+  <rect x="70" y="80" width="260" height="740" rx="24" fill="#14363f" opacity="0.9"/>
+  <rect x="370" y="80" width="1160" height="120" rx="24" fill="#fffaf2"/>
+  <rect x="370" y="230" width="740" height="590" rx="24" fill="#fff"/>
+  <rect x="1140" y="230" width="390" height="280" rx="24" fill="#fffaf2"/>
+  <rect x="1140" y="540" width="390" height="280" rx="24" fill="#d9e4d0"/>
+  <circle cx="118" cy="128" r="16" fill="#f7f3eb" opacity="0.8"/>
+  <circle cx="168" cy="128" r="16" fill="#f7f3eb" opacity="0.6"/>
+  <circle cx="218" cy="128" r="16" fill="#f7f3eb" opacity="0.4"/>
+  <rect x="110" y="200" width="180" height="18" rx="9" fill="#f7f3eb" opacity="0.8"/>
+  <rect x="110" y="250" width="140" height="18" rx="9" fill="#f7f3eb" opacity="0.65"/>
+  <rect x="110" y="300" width="160" height="18" rx="9" fill="#f7f3eb" opacity="0.65"/>
+  <rect x="110" y="350" width="120" height="18" rx="9" fill="#f7f3eb" opacity="0.65"/>
+  <rect x="430" y="120" width="280" height="22" rx="11" fill="#14363f" opacity="0.22"/>
+  <rect x="430" y="160" width="180" height="18" rx="9" fill="#14363f" opacity="0.12"/>
+  <rect x="430" y="285" width="620" height="36" rx="18" fill="#1c7283" opacity="0.16"/>
+  <rect x="430" y="350" width="520" height="22" rx="11" fill="#14363f" opacity="0.12"/>
+  <rect x="430" y="392" width="580" height="22" rx="11" fill="#14363f" opacity="0.12"/>
+  <rect x="430" y="434" width="490" height="22" rx="11" fill="#14363f" opacity="0.12"/>
+  <rect x="430" y="515" width="300" height="200" rx="24" fill="#f7f3eb"/>
+  <rect x="760" y="515" width="290" height="200" rx="24" fill="#fffaf2"/>
+  <rect x="1180" y="280" width="310" height="22" rx="11" fill="#14363f" opacity="0.16"/>
+  <rect x="1180" y="328" width="240" height="18" rx="9" fill="#14363f" opacity="0.12"/>
+  <rect x="1180" y="376" width="270" height="18" rx="9" fill="#14363f" opacity="0.12"/>
+  <rect x="1180" y="590" width="250" height="22" rx="11" fill="#14363f" opacity="0.16"/>
+  <rect x="1180" y="638" width="280" height="18" rx="9" fill="#14363f" opacity="0.12"/>
+  <text x="800" y="840" text-anchor="middle" font-family="Manrope, Arial, sans-serif" font-size="38" fill="#14363f">Replace with your own Copilot Studio screenshot</text>
+</svg>

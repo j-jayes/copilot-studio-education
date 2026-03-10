@@ -1,0 +1,52 @@
+---
+title: "Copilot Studio Day Course"
+subtitle: "Reusable training materials, guided labs, and MCP starter projects"
+---
+
+::: {.hero-panel}
+<span class="kicker">One-day format</span>
+
+This repository packages the material for a one-day Copilot Studio course with two distinct modes:
+
+- a practical morning for all attendees
+- a deeper afternoon for super users who want to build and deploy MCP servers
+
+The public repo stays anonymous. The examples are framed around a Swedish municipal utility scenario without naming the client.
+:::
+
+## What This Repository Will Hold
+
+:::: {.course-grid}
+::: {.course-card}
+### Morning enablement
+
+Guided steps for signing in, building a first agent, grounding with files and websites, reviewing existing MCP connections, and publishing to channels.
+:::
+
+::: {.course-card}
+### Afternoon build track
+
+A code-first walkthrough using `uv`, Python, `FastMCP`, inspector tooling, and Azure Container Apps deployment.
+:::
+
+::: {.course-card}
+### Reusable class assets
+
+Copy-paste instructions, public datasets, template MCP servers, and future video scripts that attendees can revisit after class.
+:::
+::::
+
+## Course Flow
+
+1. Morning fundamentals in Copilot Studio
+2. Lunch break and environment setup
+3. Afternoon coding and deployment walkthrough
+4. Closing brainstorming session for attendee scenarios
+
+## Jump In
+
+- Start with [Course Overview](course-overview.qmd)
+- Open the [Morning Track](morning/index.qmd)
+- Open the [Afternoon Track](afternoon/index.qmd)
+- Use [Copy and Paste](instructions/index.qmd) for ready-made snippets
+- Present from [Morning Slides](slides/morning.qmd) or [Afternoon Slides](slides/afternoon.qmd)

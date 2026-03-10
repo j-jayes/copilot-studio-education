@@ -1,0 +1,41 @@
+---
+title: "Brainstorming works best after a concrete demo"
+---
+
+## Outcome
+
+Participants leave with a realistic idea of what they could automate or expose through a future MCP server.
+
+:::: {.lesson-grid}
+::: {.lesson-panel}
+### Internal lookup
+
+Which repeated search task could become a tool.
+:::
+
+::: {.lesson-panel}
+### Public data blend
+
+Which outside API or data feed could enrich answers.
+:::
+
+::: {.lesson-panel}
+### Governance question
+
+Which tasks require approval, logging, or human review.
+:::
+::::
+
+```mermaid
+flowchart TD
+    A(Find a pain point) --> B(Name the user)
+    B --> C(Name the needed data)
+    C --> D(Name the needed tool)
+    D --> E(Name the risk or approval rule)
+```
+
+::: {.callout-tip}
+## Workshop prompt
+
+If you had one safe tool to expose next month, what would it do and who would trust it enough to use it?
+:::

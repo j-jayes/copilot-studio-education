@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;500;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap");
+
+/*-- scss:defaults --*/
+$body-bg: #f7f3eb;
+$body-color: #1f2a30;
+$link-color: #1c7283;
+$primary: #1c7283;
+$secondary: #d9e4d0;
+$success: #698f61;
+$info: #2f8ea3;
+$warning: #d58a2c;
+$danger: #bb5a3c;
+$light: #fffaf2;
+$dark: #1f2a30;
+$code-bg: #f1ece2;
+$code-color: #7a3119;
+$font-family-sans-serif: "Manrope", sans-serif;
+$font-family-monospace: "IBM Plex Mono", monospace;
+$headings-font-family: "Fraunces", serif;
+$headings-font-weight: 700;
+$navbar-bg: rgba(247, 243, 235, 0.9);
+$presentation-heading-color: #14363f;
+$presentation-font-size-root: 34px;
+$presentation-line-height: 1.25;
+$presentation-title-slide-text-align: left;
+
+/*-- scss:rules --*/
+body {
+  text-wrap: pretty;
+}
+
+h1, h2, h3, h4 {
+  letter-spacing: -0.02em;
+}
+
+.reveal .slide h1,
+.reveal .slide h2,
+.reveal .slide h3 {
+  letter-spacing: -0.03em;
+}
+
+.reveal .slide blockquote {
+  border-left: 6px solid $danger;
+  background: rgba(255, 250, 242, 0.75);
+  padding: 0.75rem 1rem;
+}
+
+.reveal .slide .callout {
+  border-radius: 16px;
+}
+
+.reveal .slide code {
+  font-size: 0.88em;
+}

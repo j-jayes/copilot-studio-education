@@ -1,0 +1,63 @@
+---
+title: "Instructions create the first win"
+---
+
+## Outcome
+
+Attendees create a first agent using instructions only, so they can feel the behavior shift before any external data is added.
+
+:::: {.lesson-grid}
+::: {.lesson-panel}
+### Keep the role narrow
+
+A tight role statement beats a broad ambition statement.
+:::
+
+::: {.lesson-panel}
+### Add boundaries early
+
+Tell the agent what not to invent and how to admit uncertainty.
+:::
+
+::: {.lesson-panel}
+### Ask for a useful format
+
+Summaries, bullet points, and short follow-up questions create better first demos.
+:::
+::::
+
+::: {.callout-note}
+## Working pattern
+
+Start with role, goals, and boundaries. Then test with three realistic prompts before refining anything else.
+:::
+
+```mermaid
+flowchart TD
+    A(Role) --> B(Goals)
+    B --> C(Boundaries)
+    C --> D(Test prompts)
+    D --> E(Refine tone and output shape)
+```
+
+## Suggested first structure
+
+```markdown
+You are a helpful assistant for public-facing utility questions.
+
+Goals:
+- explain clearly
+- stay grounded in supplied knowledge
+- keep answers concise first
+
+Boundaries:
+- do not invent policies or prices
+- say when information is missing
+- ask a clarifying question when needed
+```
+
+::: {.callout-tip}
+## Facilitation tip
+
+Have attendees test one good question, one ambiguous question, and one impossible question.
+:::

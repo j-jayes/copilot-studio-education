@@ -1,0 +1,55 @@
+---
+title: "Afternoon Track"
+---
+
+## Goal
+
+Show advanced users how to build, inspect, deploy, and connect their own MCP server.
+
+:::: {.lesson-grid}
+::: {.lesson-panel}
+### 1. [A smooth environment keeps the class moving](dev-environment.qmd)
+
+Standardize the editor, Python tooling, and command rhythm.
+:::
+
+::: {.lesson-panel}
+### 2. [MCP concepts should feel concrete](mcp-foundations.qmd)
+
+Explain only the architecture needed to make the build legible.
+:::
+
+::: {.lesson-panel}
+### 3. [Two small tools are enough to teach the pattern](build-server.qmd)
+
+Turn plain Python functions into MCP tools with clear structure.
+:::
+
+::: {.lesson-panel}
+### 4. [Deployment should feel like the next step](deploy-and-connect.qmd)
+
+Walk from local server to remote endpoint to Copilot Studio connection.
+:::
+
+::: {.lesson-panel}
+### 5. [Brainstorming works best after a concrete demo](brainstorming.qmd)
+
+End with realistic team use cases rather than abstract ideas.
+:::
+::::
+
+## Emphasis
+
+The walkthrough should make the code transparent, not magical. The afternoon slide deck will therefore include line-by-line commentary, progressive code highlighting, and architecture diagrams.
+
+::: {.callout-tip}
+## Canonical stack
+
+The baseline implementation uses the official MCP Python SDK with the `FastMCP` authoring pattern and a deployment shape suited for HTTP-based hosting.
+:::
+
+::: {.callout-tip}
+## Teaching rhythm
+
+Keep the afternoon code-first, but pause at each architectural jump so the room does not lose the plot.
+:::

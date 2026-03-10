@@ -1,0 +1,86 @@
+project:
+  type: website
+  output-dir: ../docs
+  render:
+    - "*.qmd"
+    - "morning/*.qmd"
+    - "afternoon/*.qmd"
+    - "resources/*.qmd"
+    - "instructions/*.qmd"
+    - "slides/*.qmd"
+
+website:
+  title: "Copilot Studio Education"
+  page-navigation: true
+  back-to-top-navigation: true
+  navbar:
+    background: "#f7f3eb"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: course-overview.qmd
+        text: Course Overview
+      - href: morning/index.qmd
+        text: Morning Track
+      - href: afternoon/index.qmd
+        text: Afternoon Track
+      - href: resources/index.qmd
+        text: Resources
+      - href: instructions/index.qmd
+        text: Copy and Paste
+      - href: slides/morning.qmd
+        text: Morning Slides
+      - href: slides/afternoon.qmd
+        text: Afternoon Slides
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Orientation"
+        contents:
+          - index.qmd
+          - course-overview.qmd
+          - about.qmd
+      - section: "Morning Session"
+        contents:
+          - morning/index.qmd
+          - morning/sign-in-and-tour.qmd
+          - morning/first-agent.qmd
+          - morning/file-grounding.qmd
+          - morning/web-knowledge.qmd
+          - morning/mcp-overview.qmd
+          - morning/publishing-channels.qmd
+      - section: "Afternoon Session"
+        contents:
+          - afternoon/index.qmd
+          - afternoon/dev-environment.qmd
+          - afternoon/mcp-foundations.qmd
+          - afternoon/build-server.qmd
+          - afternoon/deploy-and-connect.qmd
+          - afternoon/brainstorming.qmd
+      - section: "Resources"
+        contents:
+          - resources/index.qmd
+          - instructions/index.qmd
+      - section: "Presentations"
+        contents:
+          - slides/morning.qmd
+          - slides/afternoon.qmd
+  page-footer:
+    left: "Reusable course material for Copilot Studio training."
+    right: "Built with Quarto and GitHub Pages."
+
+format:
+  html:
+    theme:
+      - cosmo
+      - assets/custom.scss
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    smooth-scroll: true
+    code-copy: true
+    code-overflow: wrap
+
+execute:
+  freeze: auto

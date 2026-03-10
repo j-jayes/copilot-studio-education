@@ -1,0 +1,50 @@
+---
+title: "Start fast and reduce friction"
+---
+
+## Outcome
+
+By the end of this step, every attendee should be signed in, oriented, and ready to click through the first build flow without hesitation.
+
+:::: {.visual-grid}
+::: {.lesson-panel}
+<span class="metric">10 min</span>
+<div class="microcopy">Target duration for access, orientation, and reassurance.</div>
+:::
+
+::: {.lesson-panel}
+<span class="metric">1 goal</span>
+<div class="microcopy">Remove uncertainty before introducing agent design.</div>
+:::
+::::
+
+::: {.callout-important}
+## Instructor move
+
+Narrate the interface in terms of intent: where to create, where to ground, where to test, and where to publish.
+:::
+
+```mermaid
+flowchart LR
+    A(Access workspace) --> B(Open Copilot Studio)
+    B --> C(Scan the left navigation)
+    C --> D(Find agent settings)
+    D --> E(Find test chat and publish paths)
+```
+
+::: {.placeholder-figure}
+![](../assets/placeholders/copilot-studio-ui.svg)
+:::
+
+## What to point out live
+
+- where a new agent starts
+- where instructions live
+- where knowledge sources are attached
+- where testing happens before publishing
+
+::: {.callout-tip}
+## Keep the framing light
+
+Attendees do not need a taxonomy lecture here. They need confidence that the product is navigable.
+:::

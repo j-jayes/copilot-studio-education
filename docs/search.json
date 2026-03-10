@@ -1,0 +1,938 @@
+[
+  {
+    "objectID": "slides/morning.html#a-fast-first-win-changes-the-room",
+    "href": "slides/morning.html#a-fast-first-win-changes-the-room",
+    "title": "Morning Session",
+    "section": "A fast first win changes the room",
+    "text": "A fast first win changes the room\n\n\n\n\nOpen with momentum. The point of the morning is not depth. It is confidence. Tell the room they only need one working flow before lunch.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Morning Session"
+    ]
+  },
+  {
+    "objectID": "slides/morning.html#sign-in-should-feel-easy",
+    "href": "slides/morning.html#sign-in-should-feel-easy",
+    "title": "Morning Session",
+    "section": "Sign-in should feel easy",
+    "text": "Sign-in should feel easy\nflowchart LR\n    A(Access workspace) --&gt; B(Open Copilot Studio)\n    B --&gt; C(Find create and test areas)\n    C --&gt; D(Start building)\n\n\n\n\n\n\nPresenter cue\n\n\nName only four surfaces: create, instruct, ground, test.\n\n\n\n\nDo not narrate every menu. Keep the interface tour anchored in user intent so beginners do not feel lost.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Morning Session"
+    ]
+  },
+  {
+    "objectID": "slides/morning.html#the-interface-should-feel-familiar-fast",
+    "href": "slides/morning.html#the-interface-should-feel-familiar-fast",
+    "title": "Morning Session",
+    "section": "The interface should feel familiar fast",
+    "text": "The interface should feel familiar fast\n\n\n\n\n\nLook for\n\ncreate\ninstructions\nknowledge\ntest chat\n\n\n\n\nIf you have a real screenshot, replace the placeholder and point visually rather than verbally.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Morning Session"
+    ]
+  },
+  {
+    "objectID": "slides/morning.html#a-first-agent-needs-only-role-and-boundaries",
+    "href": "slides/morning.html#a-first-agent-needs-only-role-and-boundaries",
+    "title": "Morning Session",
+    "section": "A first agent needs only role and boundaries",
+    "text": "A first agent needs only role and boundaries\n\n\n\n\n\n\nMinimal recipe\n\n\nRole. Goals. Boundaries.\n\n\n\nYou are a helpful assistant for public-facing utility questions.\n\nGoals:\n- explain clearly\n- stay grounded\n\nBoundaries:\n- do not invent details\n- say when information is missing\n\nSay out loud that this is intentionally short. The teaching point is that behavior can move before any extra data or tools are added.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Morning Session"
+    ]
+  },
+  {
+    "objectID": "slides/morning.html#test-prompts-should-reveal-the-edges",
+    "href": "slides/morning.html#test-prompts-should-reveal-the-edges",
+    "title": "Morning Session",
+    "section": "Test prompts should reveal the edges",
+    "text": "Test prompts should reveal the edges\n\n\n\nGood question\nClear and answerable\n\n\n\nAmbiguous question\nForces a follow-up\n\n\n\nImpossible question\nForces uncertainty handling\n\n\n\nThis is where attendees usually understand why boundaries matter. Make them test all three question types.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Morning Session"
+    ]
+  },
+  {
+    "objectID": "slides/morning.html#good-files-beat-clever-prompts",
+    "href": "slides/morning.html#good-files-beat-clever-prompts",
+    "title": "Morning Session",
+    "section": "Good files beat clever prompts",
+    "text": "Good files beat clever prompts\n\n\nTransition from instructions to grounding by saying that the fastest path to usefulness is often a clean document, not a more elaborate prompt.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Morning Session"
+    ]
+  },
+  {
+    "objectID": "slides/morning.html#choice-creates-energy-in-the-lab",
+    "href": "slides/morning.html#choice-creates-energy-in-the-lab",
+    "title": "Morning Session",
+    "section": "Choice creates energy in the lab",
+    "text": "Choice creates energy in the lab\n\n\n\nZones brief\nWord document\n\n\n\nSolar capacity\nSpreadsheet\n\n\n\nPrice history\nSpreadsheet or CSV\n\n\n\nKeep the class aligned by giving structured choice rather than open-ended choice. Variety helps without creating chaos.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Morning Session"
+    ]
+  },
+  {
+    "objectID": "slides/morning.html#grounding-works-when-the-source-is-clean",
+    "href": "slides/morning.html#grounding-works-when-the-source-is-clean",
+    "title": "Morning Session",
+    "section": "Grounding works when the source is clean",
+    "text": "Grounding works when the source is clean\nflowchart LR\n    A(Clean source) --&gt; B(Better retrieval)\n    B --&gt; C(Better answers)\n    C --&gt; D(More trust)\n\n\n\n\n\n\nTeaching line\n\n\nWhen the answers are weak, inspect the source before rewriting the prompt.\n\n\n\n\nThis is one of the most useful habits to teach. It reframes troubleshooting around source quality, not just prompt wording.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Morning Session"
+    ]
+  },
+  {
+    "objectID": "slides/morning.html#website-knowledge-makes-the-pattern-feel-real",
+    "href": "slides/morning.html#website-knowledge-makes-the-pattern-feel-real",
+    "title": "Morning Session",
+    "section": "Website knowledge makes the pattern feel real",
+    "text": "Website knowledge makes the pattern feel real\n\n\n\n\n\nPick pages that are\n\nfactual\nstable\neasy to summarize\n\n\n\n\nUse a boring but factual page. Avoid marketing-heavy pages because they distract from the grounding lesson.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Morning Session"
+    ]
+  },
+  {
+    "objectID": "slides/morning.html#mcp-should-feel-useful-before-it-feels-technical",
+    "href": "slides/morning.html#mcp-should-feel-useful-before-it-feels-technical",
+    "title": "Morning Session",
+    "section": "MCP should feel useful before it feels technical",
+    "text": "MCP should feel useful before it feels technical\nflowchart LR\n    A(Client) --&gt; B(Server)\n    B --&gt; C(Tools)\n    B --&gt; D(Resources)\n    B --&gt; E(Prompts)\n\n\n\n\n\n\nMorning message\n\n\nMCP is how agents gain structured access to outside capabilities.\n\n\n\n\nDo not teach implementation here. This is just a bridge to the afternoon build track.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Morning Session"
+    ]
+  },
+  {
+    "objectID": "slides/morning.html#publishing-turns-a-private-demo-into-a-shared-tool",
+    "href": "slides/morning.html#publishing-turns-a-private-demo-into-a-shared-tool",
+    "title": "Morning Session",
+    "section": "Publishing turns a private demo into a shared tool",
+    "text": "Publishing turns a private demo into a shared tool\nflowchart LR\n    A(Build) --&gt; B(Test)\n    B --&gt; C(Review)\n    C --&gt; D(Choose channel)\n    D --&gt; E(Publish)\n\nFrame publishing as ownership and governance, not just as a final button. That lands better with mixed audiences.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Morning Session"
+    ]
+  },
+  {
+    "objectID": "slides/morning.html#by-lunch-everyone-should-feel-capable",
+    "href": "slides/morning.html#by-lunch-everyone-should-feel-capable",
+    "title": "Morning Session",
+    "section": "By lunch everyone should feel capable",
+    "text": "By lunch everyone should feel capable\n\n\n\nOne agent\nWorking and testable\n\n\n\nOne grounding path\nFile or website\n\n\n\nOne clear next step\nAfternoon build or applied use case\n\n\n\nClose the morning with reassurance. The afternoon can go deeper, but the morning should already feel successful on its own.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Morning Session"
+    ]
+  },
+  {
+    "objectID": "resources/index.html",
+    "href": "resources/index.html",
+    "title": "Resources",
+    "section": "",
+    "text": "This section points attendees and instructors to the reusable assets behind the course.\n\n\n\nCurated notes on websites, Revealjs, code highlighting, and GitHub Pages live in .github/quarto-docs/.\n\n\n\nThe exercise datasets live under data/ and attendee-assets/knowledge-sources/.\n\n\n\nPython MCP examples and templates live under mcp-servers/.",
+    "crumbs": [
+      "Home",
+      "Resources",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources/index.html#what-lives-here",
+    "href": "resources/index.html#what-lives-here",
+    "title": "Resources",
+    "section": "",
+    "text": "This section points attendees and instructors to the reusable assets behind the course.\n\n\n\nCurated notes on websites, Revealjs, code highlighting, and GitHub Pages live in .github/quarto-docs/.\n\n\n\nThe exercise datasets live under data/ and attendee-assets/knowledge-sources/.\n\n\n\nPython MCP examples and templates live under mcp-servers/.",
+    "crumbs": [
+      "Home",
+      "Resources",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources/index.html#external-references",
+    "href": "resources/index.html#external-references",
+    "title": "Resources",
+    "section": "External References",
+    "text": "External References\n\nQuarto website docs\nQuarto Revealjs docs\nModel Context Protocol\nuv documentation",
+    "crumbs": [
+      "Home",
+      "Resources",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "morning/sign-in-and-tour.html",
+    "href": "morning/sign-in-and-tour.html",
+    "title": "Start fast and reduce friction",
+    "section": "",
+    "text": "By the end of this step, every attendee should be signed in, oriented, and ready to click through the first build flow without hesitation.\n\n\n10 min\n\nTarget duration for access, orientation, and reassurance.\n\n\n\n1 goal\n\nRemove uncertainty before introducing agent design.\n\n\n\n\n\n\n\n\n\nImportantInstructor move\n\n\n\nNarrate the interface in terms of intent: where to create, where to ground, where to test, and where to publish.\n\n\nflowchart LR\n    A(Access workspace) --&gt; B(Open Copilot Studio)\n    B --&gt; C(Scan the left navigation)\n    C --&gt; D(Find agent settings)\n    D --&gt; E(Find test chat and publish paths)",
+    "crumbs": [
+      "Home",
+      "Morning Session",
+      "Start fast and reduce friction"
+    ]
+  },
+  {
+    "objectID": "morning/sign-in-and-tour.html#outcome",
+    "href": "morning/sign-in-and-tour.html#outcome",
+    "title": "Start fast and reduce friction",
+    "section": "",
+    "text": "By the end of this step, every attendee should be signed in, oriented, and ready to click through the first build flow without hesitation.\n\n\n10 min\n\nTarget duration for access, orientation, and reassurance.\n\n\n\n1 goal\n\nRemove uncertainty before introducing agent design.\n\n\n\n\n\n\n\n\n\nImportantInstructor move\n\n\n\nNarrate the interface in terms of intent: where to create, where to ground, where to test, and where to publish.\n\n\nflowchart LR\n    A(Access workspace) --&gt; B(Open Copilot Studio)\n    B --&gt; C(Scan the left navigation)\n    C --&gt; D(Find agent settings)\n    D --&gt; E(Find test chat and publish paths)",
+    "crumbs": [
+      "Home",
+      "Morning Session",
+      "Start fast and reduce friction"
+    ]
+  },
+  {
+    "objectID": "morning/sign-in-and-tour.html#what-to-point-out-live",
+    "href": "morning/sign-in-and-tour.html#what-to-point-out-live",
+    "title": "Start fast and reduce friction",
+    "section": "What to point out live",
+    "text": "What to point out live\n\nwhere a new agent starts\nwhere instructions live\nwhere knowledge sources are attached\nwhere testing happens before publishing\n\n\n\n\n\n\n\nTipKeep the framing light\n\n\n\nAttendees do not need a taxonomy lecture here. They need confidence that the product is navigable.",
+    "crumbs": [
+      "Home",
+      "Morning Session",
+      "Start fast and reduce friction"
+    ]
+  },
+  {
+    "objectID": "morning/mcp-overview.html",
+    "href": "morning/mcp-overview.html",
+    "title": "MCP explains how agents do more",
+    "section": "",
+    "text": "Attendees leave the morning knowing what MCP is for, without needing implementation details yet.\n\n\n\nflowchart LR\n    A(Client) --&gt; B(Server)\n    B --&gt; C(Tools)\n    B --&gt; D(Resources)\n    B --&gt; E(Prompts)\n\n\n\nThe environment where the user interacts.\n\n\n\nThe external capability provider.\n\n\n\nA callable function with structured inputs.\n\n\n\n\n\n\n\n\nTipMorning message\n\n\n\nMCP is useful because it gives agents a standard way to access tools and data. The afternoon shows how to build one.",
+    "crumbs": [
+      "Home",
+      "Morning Session",
+      "MCP explains how agents do more"
+    ]
+  },
+  {
+    "objectID": "morning/mcp-overview.html#outcome",
+    "href": "morning/mcp-overview.html#outcome",
+    "title": "MCP explains how agents do more",
+    "section": "",
+    "text": "Attendees leave the morning knowing what MCP is for, without needing implementation details yet.\n\n\n\nflowchart LR\n    A(Client) --&gt; B(Server)\n    B --&gt; C(Tools)\n    B --&gt; D(Resources)\n    B --&gt; E(Prompts)\n\n\n\nThe environment where the user interacts.\n\n\n\nThe external capability provider.\n\n\n\nA callable function with structured inputs.\n\n\n\n\n\n\n\n\nTipMorning message\n\n\n\nMCP is useful because it gives agents a standard way to access tools and data. The afternoon shows how to build one.",
+    "crumbs": [
+      "Home",
+      "Morning Session",
+      "MCP explains how agents do more"
+    ]
+  },
+  {
+    "objectID": "morning/first-agent.html",
+    "href": "morning/first-agent.html",
+    "title": "Instructions create the first win",
+    "section": "",
+    "text": "Attendees create a first agent using instructions only, so they can feel the behavior shift before any external data is added.\n\n\n\nA tight role statement beats a broad ambition statement.\n\n\n\nTell the agent what not to invent and how to admit uncertainty.\n\n\n\nSummaries, bullet points, and short follow-up questions create better first demos.\n\n\n\n\n\n\n\n\nNoteWorking pattern\n\n\n\nStart with role, goals, and boundaries. Then test with three realistic prompts before refining anything else.\n\n\nflowchart TD\n    A(Role) --&gt; B(Goals)\n    B --&gt; C(Boundaries)\n    C --&gt; D(Test prompts)\n    D --&gt; E(Refine tone and output shape)",
+    "crumbs": [
+      "Home",
+      "Morning Session",
+      "Instructions create the first win"
+    ]
+  },
+  {
+    "objectID": "morning/first-agent.html#outcome",
+    "href": "morning/first-agent.html#outcome",
+    "title": "Instructions create the first win",
+    "section": "",
+    "text": "Attendees create a first agent using instructions only, so they can feel the behavior shift before any external data is added.\n\n\n\nA tight role statement beats a broad ambition statement.\n\n\n\nTell the agent what not to invent and how to admit uncertainty.\n\n\n\nSummaries, bullet points, and short follow-up questions create better first demos.\n\n\n\n\n\n\n\n\nNoteWorking pattern\n\n\n\nStart with role, goals, and boundaries. Then test with three realistic prompts before refining anything else.\n\n\nflowchart TD\n    A(Role) --&gt; B(Goals)\n    B --&gt; C(Boundaries)\n    C --&gt; D(Test prompts)\n    D --&gt; E(Refine tone and output shape)",
+    "crumbs": [
+      "Home",
+      "Morning Session",
+      "Instructions create the first win"
+    ]
+  },
+  {
+    "objectID": "morning/first-agent.html#suggested-first-structure",
+    "href": "morning/first-agent.html#suggested-first-structure",
+    "title": "Instructions create the first win",
+    "section": "Suggested first structure",
+    "text": "Suggested first structure\nYou are a helpful assistant for public-facing utility questions.\n\nGoals:\n- explain clearly\n- stay grounded in supplied knowledge\n- keep answers concise first\n\nBoundaries:\n- do not invent policies or prices\n- say when information is missing\n- ask a clarifying question when needed\n\n\n\n\n\n\nTipFacilitation tip\n\n\n\nHave attendees test one good question, one ambiguous question, and one impossible question.",
+    "crumbs": [
+      "Home",
+      "Morning Session",
+      "Instructions create the first win"
+    ]
+  },
+  {
+    "objectID": "instructions/index.html",
+    "href": "instructions/index.html",
+    "title": "Copy and Paste",
+    "section": "",
+    "text": "This section is the attendee-facing shortcut library. The raw source files live in attendee-assets/ so the website can stay aligned with the lab files.",
+    "crumbs": [
+      "Home",
+      "Resources",
+      "Copy and Paste"
+    ]
+  },
+  {
+    "objectID": "instructions/index.html#purpose",
+    "href": "instructions/index.html#purpose",
+    "title": "Copy and Paste",
+    "section": "",
+    "text": "This section is the attendee-facing shortcut library. The raw source files live in attendee-assets/ so the website can stay aligned with the lab files.",
+    "crumbs": [
+      "Home",
+      "Resources",
+      "Copy and Paste"
+    ]
+  },
+  {
+    "objectID": "instructions/index.html#starter-snippets",
+    "href": "instructions/index.html#starter-snippets",
+    "title": "Copy and Paste",
+    "section": "Starter Snippets",
+    "text": "Starter Snippets\n\nattendee-assets/agent-instructions/first-agent.md\nattendee-assets/agent-instructions/file-grounding.md\nattendee-assets/prompts/brainstorming-prompts.md\nattendee-assets/channels/publish-checklist.md",
+    "crumbs": [
+      "Home",
+      "Resources",
+      "Copy and Paste"
+    ]
+  },
+  {
+    "objectID": "instructions/index.html#authoring-rule",
+    "href": "instructions/index.html#authoring-rule",
+    "title": "Copy and Paste",
+    "section": "Authoring Rule",
+    "text": "Authoring Rule\nWhenever we add a new snippet for class, we should add it to attendee-assets/ first and then surface it here.",
+    "crumbs": [
+      "Home",
+      "Resources",
+      "Copy and Paste"
+    ]
+  },
+  {
+    "objectID": "course-overview.html",
+    "href": "course-overview.html",
+    "title": "Course Overview",
+    "section": "",
+    "text": "The day is designed for a mixed audience:\n\nall attendees in the morning\nadvanced users in the afternoon",
+    "crumbs": [
+      "Home",
+      "Orientation",
+      "Course Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#audience-split",
+    "href": "course-overview.html#audience-split",
+    "title": "Course Overview",
+    "section": "",
+    "text": "The day is designed for a mixed audience:\n\nall attendees in the morning\nadvanced users in the afternoon",
+    "crumbs": [
+      "Home",
+      "Orientation",
+      "Course Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#session-map",
+    "href": "course-overview.html#session-map",
+    "title": "Course Overview",
+    "section": "Session Map",
+    "text": "Session Map\n\n\n\n\n\n\n\n\nStep\nFocus\nIntended outcome\n\n\n\n\n1\nSign in and orient\nEveryone can access the interface and understand the main surfaces\n\n\n2\nFirst agent\nEveryone creates a working agent with instructions only\n\n\n3\nFiles as knowledge\nEveryone connects a document or spreadsheet\n\n\n4\nWeb knowledge\nEveryone configures a website-backed knowledge source\n\n\n5\nAvailable MCP servers\nEveryone understands what MCP adds to agents\n\n\n6\nPublishing channels\nEveryone sees how agents can be shared\n\n\n7\nDev environment\nAdvanced users install VS Code, uv, and Copilot\n\n\n8\nBuild an MCP server\nAdvanced users expose two tools from Python\n\n\n9\nDeploy on Azure\nAdvanced users understand the deployment shape\n\n\n10\nConnect to Copilot Studio\nAdvanced users attach the server as a remote capability\n\n\n11\nBrainstorming\nTeams sketch their own internal use cases",
+    "crumbs": [
+      "Home",
+      "Orientation",
+      "Course Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#variation-strategy",
+    "href": "course-overview.html#variation-strategy",
+    "title": "Course Overview",
+    "section": "Variation Strategy",
+    "text": "Variation Strategy\nWe want variety in selected moments rather than forcing every attendee through the exact same assets.\n\n\nFile grounding\nAttendees can choose between a Word brief, a spreadsheet about solar capacity, or a time-series pricing file.\n\n\nWebsite grounding\nAttendees can test a utility-style public website, a policy-style page, or a facts-and-FAQ page.\n\n\nMCP examples\nThe afternoon can use one canonical walkthrough while still offering alternative template servers afterwards.\n\n\n\n\n\n\n\n\nNotePublic repo rule\n\n\n\nThe site and sample content should stay generic and reusable. The real client context informs the examples, but it should not appear by name in the repo.",
+    "crumbs": [
+      "Home",
+      "Orientation",
+      "Course Overview"
+    ]
+  },
+  {
+    "objectID": "afternoon/index.html",
+    "href": "afternoon/index.html",
+    "title": "Afternoon Track",
+    "section": "",
+    "text": "Show advanced users how to build, inspect, deploy, and connect their own MCP server.\n\n\n\nStandardize the editor, Python tooling, and command rhythm.\n\n\n\nExplain only the architecture needed to make the build legible.\n\n\n\nTurn plain Python functions into MCP tools with clear structure.\n\n\n\nWalk from local server to remote endpoint to Copilot Studio connection.\n\n\n\nEnd with realistic team use cases rather than abstract ideas.",
+    "crumbs": [
+      "Home",
+      "Afternoon Session",
+      "Afternoon Track"
+    ]
+  },
+  {
+    "objectID": "afternoon/index.html#goal",
+    "href": "afternoon/index.html#goal",
+    "title": "Afternoon Track",
+    "section": "",
+    "text": "Show advanced users how to build, inspect, deploy, and connect their own MCP server.\n\n\n\nStandardize the editor, Python tooling, and command rhythm.\n\n\n\nExplain only the architecture needed to make the build legible.\n\n\n\nTurn plain Python functions into MCP tools with clear structure.\n\n\n\nWalk from local server to remote endpoint to Copilot Studio connection.\n\n\n\nEnd with realistic team use cases rather than abstract ideas.",
+    "crumbs": [
+      "Home",
+      "Afternoon Session",
+      "Afternoon Track"
+    ]
+  },
+  {
+    "objectID": "afternoon/index.html#emphasis",
+    "href": "afternoon/index.html#emphasis",
+    "title": "Afternoon Track",
+    "section": "Emphasis",
+    "text": "Emphasis\nThe walkthrough should make the code transparent, not magical. The afternoon slide deck will therefore include line-by-line commentary, progressive code highlighting, and architecture diagrams.\n\n\n\n\n\n\nTipCanonical stack\n\n\n\nThe baseline implementation uses the official MCP Python SDK with the FastMCP authoring pattern and a deployment shape suited for HTTP-based hosting.\n\n\n\n\n\n\n\n\nTipTeaching rhythm\n\n\n\nKeep the afternoon code-first, but pause at each architectural jump so the room does not lose the plot.",
+    "crumbs": [
+      "Home",
+      "Afternoon Session",
+      "Afternoon Track"
+    ]
+  },
+  {
+    "objectID": "afternoon/deploy-and-connect.html",
+    "href": "afternoon/deploy-and-connect.html",
+    "title": "Deployment should feel like the next step",
+    "section": "",
+    "text": "Participants understand the shape of moving from a local server to a hosted endpoint that Copilot Studio can connect to.\n\n\n\nflowchart LR\n    A(Local project) --&gt; B(Container image)\n    B --&gt; C(Container Apps)\n    C --&gt; D(Remote endpoint)\n    D --&gt; E(Copilot Studio)\n\n\n\nIf the server is unclear locally, hosting will not fix it.\n\n\n\nPackage the working server, not the half-working one.\n\n\n\nOnly connect after the endpoint contract is understood.\n\n\n\n\n\n\n\n\nImportantKeep the story linear\n\n\n\nThe room should understand why each deployment step exists before the Azure details show up.",
+    "crumbs": [
+      "Home",
+      "Afternoon Session",
+      "Deployment should feel like the next step"
+    ]
+  },
+  {
+    "objectID": "afternoon/deploy-and-connect.html#outcome",
+    "href": "afternoon/deploy-and-connect.html#outcome",
+    "title": "Deployment should feel like the next step",
+    "section": "",
+    "text": "Participants understand the shape of moving from a local server to a hosted endpoint that Copilot Studio can connect to.\n\n\n\nflowchart LR\n    A(Local project) --&gt; B(Container image)\n    B --&gt; C(Container Apps)\n    C --&gt; D(Remote endpoint)\n    D --&gt; E(Copilot Studio)\n\n\n\nIf the server is unclear locally, hosting will not fix it.\n\n\n\nPackage the working server, not the half-working one.\n\n\n\nOnly connect after the endpoint contract is understood.\n\n\n\n\n\n\n\n\nImportantKeep the story linear\n\n\n\nThe room should understand why each deployment step exists before the Azure details show up.",
+    "crumbs": [
+      "Home",
+      "Afternoon Session",
+      "Deployment should feel like the next step"
+    ]
+  },
+  {
+    "objectID": "afternoon/brainstorming.html",
+    "href": "afternoon/brainstorming.html",
+    "title": "Brainstorming works best after a concrete demo",
+    "section": "",
+    "text": "Participants leave with a realistic idea of what they could automate or expose through a future MCP server.\n\n\n\nWhich repeated search task could become a tool.\n\n\n\nWhich outside API or data feed could enrich answers.\n\n\n\nWhich tasks require approval, logging, or human review.\n\n\nflowchart TD\n    A(Find a pain point) --&gt; B(Name the user)\n    B --&gt; C(Name the needed data)\n    C --&gt; D(Name the needed tool)\n    D --&gt; E(Name the risk or approval rule)\n\n\n\n\n\n\nTipWorkshop prompt\n\n\n\nIf you had one safe tool to expose next month, what would it do and who would trust it enough to use it?",
+    "crumbs": [
+      "Home",
+      "Afternoon Session",
+      "Brainstorming works best after a concrete demo"
+    ]
+  },
+  {
+    "objectID": "afternoon/brainstorming.html#outcome",
+    "href": "afternoon/brainstorming.html#outcome",
+    "title": "Brainstorming works best after a concrete demo",
+    "section": "",
+    "text": "Participants leave with a realistic idea of what they could automate or expose through a future MCP server.\n\n\n\nWhich repeated search task could become a tool.\n\n\n\nWhich outside API or data feed could enrich answers.\n\n\n\nWhich tasks require approval, logging, or human review.\n\n\nflowchart TD\n    A(Find a pain point) --&gt; B(Name the user)\n    B --&gt; C(Name the needed data)\n    C --&gt; D(Name the needed tool)\n    D --&gt; E(Name the risk or approval rule)\n\n\n\n\n\n\nTipWorkshop prompt\n\n\n\nIf you had one safe tool to expose next month, what would it do and who would trust it enough to use it?",
+    "crumbs": [
+      "Home",
+      "Afternoon Session",
+      "Brainstorming works best after a concrete demo"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This site is the source material for a reusable Copilot Studio training day.\nIt combines:\n\nQuarto website pages\nRevealjs presentations\nattendee-ready copy and paste snippets\nstarter MCP server projects in Python\ndeployment notes for Azure Container Apps\n\nThe examples are intentionally practical, public, and easy to adapt for future deliveries.\n\n\n\n Back to top",
+    "crumbs": [
+      "Home",
+      "Orientation",
+      "About"
+    ]
+  },
+  {
+    "objectID": "afternoon/build-server.html",
+    "href": "afternoon/build-server.html",
+    "title": "Two small tools are enough to teach the pattern",
+    "section": "",
+    "text": "Advanced users see how plain Python functions become discoverable MCP tools.\nflowchart TD\n    A(Python function) --&gt; B(Type hints)\n    B --&gt; C(Docstring)\n    C --&gt; D(FastMCP decorator)\n    D --&gt; E(Inspectable tool)\n\n\n\n\n\n\nImportantCore lesson\n\n\n\nThe important transformation is not complexity. It is structure.",
+    "crumbs": [
+      "Home",
+      "Afternoon Session",
+      "Two small tools are enough to teach the pattern"
+    ]
+  },
+  {
+    "objectID": "afternoon/build-server.html#outcome",
+    "href": "afternoon/build-server.html#outcome",
+    "title": "Two small tools are enough to teach the pattern",
+    "section": "",
+    "text": "Advanced users see how plain Python functions become discoverable MCP tools.\nflowchart TD\n    A(Python function) --&gt; B(Type hints)\n    B --&gt; C(Docstring)\n    C --&gt; D(FastMCP decorator)\n    D --&gt; E(Inspectable tool)\n\n\n\n\n\n\nImportantCore lesson\n\n\n\nThe important transformation is not complexity. It is structure.",
+    "crumbs": [
+      "Home",
+      "Afternoon Session",
+      "Two small tools are enough to teach the pattern"
+    ]
+  },
+  {
+    "objectID": "afternoon/build-server.html#minimal-example",
+    "href": "afternoon/build-server.html#minimal-example",
+    "title": "Two small tools are enough to teach the pattern",
+    "section": "Minimal example",
+    "text": "Minimal example\nfrom mcp.server.fastmcp import FastMCP\n\nmcp = FastMCP(\"demo\")\n\n@mcp.tool()\ndef ping(name: str) -&gt; str:\n    \"\"\"Return a simple greeting.\"\"\"\n    return f\"Hello, {name}!\"",
+    "crumbs": [
+      "Home",
+      "Afternoon Session",
+      "Two small tools are enough to teach the pattern"
+    ]
+  },
+  {
+    "objectID": "afternoon/build-server.html#canonical-walkthrough-shape",
+    "href": "afternoon/build-server.html#canonical-walkthrough-shape",
+    "title": "Two small tools are enough to teach the pattern",
+    "section": "Canonical walkthrough shape",
+    "text": "Canonical walkthrough shape\n\none lookup-style tool\none data or status tool\nshort descriptions with good parameter names\na run path that works locally before deployment\n\n\n\n\n\n\n\nNoteTeaching prompt\n\n\n\nAsk the room which parts are business logic and which parts are protocol glue.",
+    "crumbs": [
+      "Home",
+      "Afternoon Session",
+      "Two small tools are enough to teach the pattern"
+    ]
+  },
+  {
+    "objectID": "afternoon/dev-environment.html",
+    "href": "afternoon/dev-environment.html",
+    "title": "A smooth environment keeps the class moving",
+    "section": "",
+    "text": "Advanced users leave setup mode quickly and get to runnable Python with minimal friction.\n\n\n\nUse one editor for Quarto, Python, terminal work, and Copilot support.\n\n\n\nCreate environments and run projects with short, repeatable commands.\n\n\n\nUse it as a coding assistant, not as a replacement for understanding the build.\n\n\nflowchart LR\n    A(Install tools) --&gt; B(Create project)\n    B --&gt; C(Sync dependencies)\n    C --&gt; D(Run sample server)\n\n\n\n\n\n\nNoteBaseline commands\n\n\n\nUse uv lock, uv sync, and uv run as the repeated rhythm for the afternoon.",
+    "crumbs": [
+      "Home",
+      "Afternoon Session",
+      "A smooth environment keeps the class moving"
+    ]
+  },
+  {
+    "objectID": "afternoon/dev-environment.html#outcome",
+    "href": "afternoon/dev-environment.html#outcome",
+    "title": "A smooth environment keeps the class moving",
+    "section": "",
+    "text": "Advanced users leave setup mode quickly and get to runnable Python with minimal friction.\n\n\n\nUse one editor for Quarto, Python, terminal work, and Copilot support.\n\n\n\nCreate environments and run projects with short, repeatable commands.\n\n\n\nUse it as a coding assistant, not as a replacement for understanding the build.\n\n\nflowchart LR\n    A(Install tools) --&gt; B(Create project)\n    B --&gt; C(Sync dependencies)\n    C --&gt; D(Run sample server)\n\n\n\n\n\n\nNoteBaseline commands\n\n\n\nUse uv lock, uv sync, and uv run as the repeated rhythm for the afternoon.",
+    "crumbs": [
+      "Home",
+      "Afternoon Session",
+      "A smooth environment keeps the class moving"
+    ]
+  },
+  {
+    "objectID": "afternoon/mcp-foundations.html",
+    "href": "afternoon/mcp-foundations.html",
+    "title": "MCP concepts should feel concrete",
+    "section": "",
+    "text": "Participants understand the small number of protocol concepts that matter for building a first server.\n\n\n\nflowchart LR\n    A(Client) --&gt; B(MCP server)\n    B --&gt; C(Tool)\n    B --&gt; D(Resource)\n    B --&gt; E(Prompt)\n    B --&gt; F(Transport)\n\n\n\nA function the client can call.\n\n\n\nData the client can retrieve.\n\n\n\nReusable guidance that shapes a task.\n\n\n\n\n\n\n\n\nTipTeaching boundary\n\n\n\nConcentrate on tools first. They produce the fastest visible value during a live class.",
+    "crumbs": [
+      "Home",
+      "Afternoon Session",
+      "MCP concepts should feel concrete"
+    ]
+  },
+  {
+    "objectID": "afternoon/mcp-foundations.html#outcome",
+    "href": "afternoon/mcp-foundations.html#outcome",
+    "title": "MCP concepts should feel concrete",
+    "section": "",
+    "text": "Participants understand the small number of protocol concepts that matter for building a first server.\n\n\n\nflowchart LR\n    A(Client) --&gt; B(MCP server)\n    B --&gt; C(Tool)\n    B --&gt; D(Resource)\n    B --&gt; E(Prompt)\n    B --&gt; F(Transport)\n\n\n\nA function the client can call.\n\n\n\nData the client can retrieve.\n\n\n\nReusable guidance that shapes a task.\n\n\n\n\n\n\n\n\nTipTeaching boundary\n\n\n\nConcentrate on tools first. They produce the fastest visible value during a live class.",
+    "crumbs": [
+      "Home",
+      "Afternoon Session",
+      "MCP concepts should feel concrete"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Copilot Studio Day Course",
+    "section": "",
+    "text": "One-day format\nThis repository packages the material for a one-day Copilot Studio course with two distinct modes:\n\na practical morning for all attendees\na deeper afternoon for super users who want to build and deploy MCP servers\n\nThe public repo stays anonymous. The examples are framed around a Swedish municipal utility scenario without naming the client.",
+    "crumbs": [
+      "Home",
+      "Orientation",
+      "Copilot Studio Day Course"
+    ]
+  },
+  {
+    "objectID": "index.html#what-this-repository-will-hold",
+    "href": "index.html#what-this-repository-will-hold",
+    "title": "Copilot Studio Day Course",
+    "section": "What This Repository Will Hold",
+    "text": "What This Repository Will Hold\n\n\nMorning enablement\nGuided steps for signing in, building a first agent, grounding with files and websites, reviewing existing MCP connections, and publishing to channels.\n\n\nAfternoon build track\nA code-first walkthrough using uv, Python, FastMCP, inspector tooling, and Azure Container Apps deployment.\n\n\nReusable class assets\nCopy-paste instructions, public datasets, template MCP servers, and future video scripts that attendees can revisit after class.",
+    "crumbs": [
+      "Home",
+      "Orientation",
+      "Copilot Studio Day Course"
+    ]
+  },
+  {
+    "objectID": "index.html#course-flow",
+    "href": "index.html#course-flow",
+    "title": "Copilot Studio Day Course",
+    "section": "Course Flow",
+    "text": "Course Flow\n\nMorning fundamentals in Copilot Studio\nLunch break and environment setup\nAfternoon coding and deployment walkthrough\nClosing brainstorming session for attendee scenarios",
+    "crumbs": [
+      "Home",
+      "Orientation",
+      "Copilot Studio Day Course"
+    ]
+  },
+  {
+    "objectID": "index.html#jump-in",
+    "href": "index.html#jump-in",
+    "title": "Copilot Studio Day Course",
+    "section": "Jump In",
+    "text": "Jump In\n\nStart with Course Overview\nOpen the Morning Track\nOpen the Afternoon Track\nUse Copy and Paste for ready-made snippets\nPresent from Morning Slides or Afternoon Slides",
+    "crumbs": [
+      "Home",
+      "Orientation",
+      "Copilot Studio Day Course"
+    ]
+  },
+  {
+    "objectID": "morning/file-grounding.html",
+    "href": "morning/file-grounding.html",
+    "title": "Good files beat clever prompts",
+    "section": "",
+    "text": "Attendees see that a well-chosen file instantly makes the agent more useful and more trustworthy.\n\n\n\nWord document about Swedish electricity zones and municipalities.\n\n\n\nSpreadsheet with installed solar capacity.\n\n\n\nSpreadsheet with electricity prices over time.\n\n\n\n\n\n\n\n\n\n\n\nImportantWhat we are teaching\n\n\n\nThe file is not just content. It is the shape of the answers the agent can produce.\n\n\nflowchart LR\n    A(Clean file) --&gt; B(Better grounding)\n    B --&gt; C(Better retrieval)\n    C --&gt; D(Better answers)",
+    "crumbs": [
+      "Home",
+      "Morning Session",
+      "Good files beat clever prompts"
+    ]
+  },
+  {
+    "objectID": "morning/file-grounding.html#outcome",
+    "href": "morning/file-grounding.html#outcome",
+    "title": "Good files beat clever prompts",
+    "section": "",
+    "text": "Attendees see that a well-chosen file instantly makes the agent more useful and more trustworthy.\n\n\n\nWord document about Swedish electricity zones and municipalities.\n\n\n\nSpreadsheet with installed solar capacity.\n\n\n\nSpreadsheet with electricity prices over time.\n\n\n\n\n\n\n\n\n\n\n\nImportantWhat we are teaching\n\n\n\nThe file is not just content. It is the shape of the answers the agent can produce.\n\n\nflowchart LR\n    A(Clean file) --&gt; B(Better grounding)\n    B --&gt; C(Better retrieval)\n    C --&gt; D(Better answers)",
+    "crumbs": [
+      "Home",
+      "Morning Session",
+      "Good files beat clever prompts"
+    ]
+  },
+  {
+    "objectID": "morning/file-grounding.html#simple-evaluation-questions",
+    "href": "morning/file-grounding.html#simple-evaluation-questions",
+    "title": "Good files beat clever prompts",
+    "section": "Simple evaluation questions",
+    "text": "Simple evaluation questions\n\nCan the agent find the right fact quickly\nCan the agent summarize a table without guessing\nCan the agent say when the file does not contain the answer\n\n\n\n\n\n\n\nTipInstructor shortcut\n\n\n\nIf a file is messy, tell attendees that this is a data-quality lesson rather than a prompt-quality lesson.",
+    "crumbs": [
+      "Home",
+      "Morning Session",
+      "Good files beat clever prompts"
+    ]
+  },
+  {
+    "objectID": "morning/index.html",
+    "href": "morning/index.html",
+    "title": "Morning Track",
+    "section": "",
+    "text": "Give every attendee enough confidence to create, ground, and publish an agent in Copilot Studio.\n\n\n\nGet everyone logged in and oriented without turning the opening into a lecture.\n\n\n\nShow how role, goals, and boundaries shape the first agent.\n\n\n\nUse documents and spreadsheets to show visible grounding value.\n\n\n\nTurn a public page into a knowledge source and test it live.\n\n\n\nIntroduce the concept without drowning the room in protocol details.\n\n\n\nExplain where agents go after the build phase.",
+    "crumbs": [
+      "Home",
+      "Morning Session",
+      "Morning Track"
+    ]
+  },
+  {
+    "objectID": "morning/index.html#goal",
+    "href": "morning/index.html#goal",
+    "title": "Morning Track",
+    "section": "",
+    "text": "Give every attendee enough confidence to create, ground, and publish an agent in Copilot Studio.\n\n\n\nGet everyone logged in and oriented without turning the opening into a lecture.\n\n\n\nShow how role, goals, and boundaries shape the first agent.\n\n\n\nUse documents and spreadsheets to show visible grounding value.\n\n\n\nTurn a public page into a knowledge source and test it live.\n\n\n\nIntroduce the concept without drowning the room in protocol details.\n\n\n\nExplain where agents go after the build phase.",
+    "crumbs": [
+      "Home",
+      "Morning Session",
+      "Morning Track"
+    ]
+  },
+  {
+    "objectID": "morning/index.html#attendee-options",
+    "href": "morning/index.html#attendee-options",
+    "title": "Morning Track",
+    "section": "Attendee Options",
+    "text": "Attendee Options\n\n\nOption A\nWork with a document about Swedish electricity zones.\n\n\nOption B\nWork with a spreadsheet on installed solar capacity.\n\n\nOption C\nWork with a pricing dataset over time.",
+    "crumbs": [
+      "Home",
+      "Morning Session",
+      "Morning Track"
+    ]
+  },
+  {
+    "objectID": "morning/index.html#outputs",
+    "href": "morning/index.html#outputs",
+    "title": "Morning Track",
+    "section": "Outputs",
+    "text": "Outputs\nBy lunch, each attendee should have:\n\none working agent\none grounded data source\none web-based knowledge configuration\none publishing target they understand\n\n\n\n\n\n\n\nTipTeaching rhythm\n\n\n\nKeep the morning hands-on, forgiving, and fast. The purpose is momentum.",
+    "crumbs": [
+      "Home",
+      "Morning Session",
+      "Morning Track"
+    ]
+  },
+  {
+    "objectID": "morning/publishing-channels.html",
+    "href": "morning/publishing-channels.html",
+    "title": "Publishing turns a demo into a product",
+    "section": "",
+    "text": "Attendees understand the difference between building an agent for themselves and publishing an agent for others.\n\n\n\nA natural surface for collaboration and quick discovery.\n\n\n\nUseful when the audience already works inside the broader suite.\n\n\n\nImportant before any wider rollout.\n\n\nflowchart LR\n    A(Build agent) --&gt; B(Test agent)\n    B --&gt; C(Review permissions)\n    C --&gt; D(Choose channel)\n    D --&gt; E(Publish with owner)\n\n\n\n\n\n\nImportantFacilitation tip\n\n\n\nFrame publishing as governance, ownership, and discoverability, not just as a button at the end.",
+    "crumbs": [
+      "Home",
+      "Morning Session",
+      "Publishing turns a demo into a product"
+    ]
+  },
+  {
+    "objectID": "morning/publishing-channels.html#outcome",
+    "href": "morning/publishing-channels.html#outcome",
+    "title": "Publishing turns a demo into a product",
+    "section": "",
+    "text": "Attendees understand the difference between building an agent for themselves and publishing an agent for others.\n\n\n\nA natural surface for collaboration and quick discovery.\n\n\n\nUseful when the audience already works inside the broader suite.\n\n\n\nImportant before any wider rollout.\n\n\nflowchart LR\n    A(Build agent) --&gt; B(Test agent)\n    B --&gt; C(Review permissions)\n    C --&gt; D(Choose channel)\n    D --&gt; E(Publish with owner)\n\n\n\n\n\n\nImportantFacilitation tip\n\n\n\nFrame publishing as governance, ownership, and discoverability, not just as a button at the end.",
+    "crumbs": [
+      "Home",
+      "Morning Session",
+      "Publishing turns a demo into a product"
+    ]
+  },
+  {
+    "objectID": "morning/publishing-channels.html#before-lunch-attendees-should-know",
+    "href": "morning/publishing-channels.html#before-lunch-attendees-should-know",
+    "title": "Publishing turns a demo into a product",
+    "section": "Before lunch, attendees should know",
+    "text": "Before lunch, attendees should know\n\nwho the agent is for\nwhich channel makes sense\nwho would own future updates",
+    "crumbs": [
+      "Home",
+      "Morning Session",
+      "Publishing turns a demo into a product"
+    ]
+  },
+  {
+    "objectID": "morning/web-knowledge.html",
+    "href": "morning/web-knowledge.html",
+    "title": "Web knowledge scales the pattern",
+    "section": "",
+    "text": "Attendees understand why a web source becomes a durable knowledge base when a single file is too static or too narrow.\n\n\n\n\nthe information already lives on the web\nupdates happen outside the class repo\nattendees need a realistic grounding example\n\n\n\n\n\nnavigation clutter\ncontent that is too promotional\npages with weak factual structure\n\n\n\nflowchart LR\n    A(Public page) --&gt; B(Index content)\n    B --&gt; C(Create knowledge source)\n    C --&gt; D(Test grounded questions)\n\n\n\n\n\n\nNoteDesign principle\n\n\n\nPick pages with stable factual content, not flashy landing pages. The cleaner the page, the easier it is to explain the result.",
+    "crumbs": [
+      "Home",
+      "Morning Session",
+      "Web knowledge scales the pattern"
+    ]
+  },
+  {
+    "objectID": "morning/web-knowledge.html#outcome",
+    "href": "morning/web-knowledge.html#outcome",
+    "title": "Web knowledge scales the pattern",
+    "section": "",
+    "text": "Attendees understand why a web source becomes a durable knowledge base when a single file is too static or too narrow.\n\n\n\n\nthe information already lives on the web\nupdates happen outside the class repo\nattendees need a realistic grounding example\n\n\n\n\n\nnavigation clutter\ncontent that is too promotional\npages with weak factual structure\n\n\n\nflowchart LR\n    A(Public page) --&gt; B(Index content)\n    B --&gt; C(Create knowledge source)\n    C --&gt; D(Test grounded questions)\n\n\n\n\n\n\nNoteDesign principle\n\n\n\nPick pages with stable factual content, not flashy landing pages. The cleaner the page, the easier it is to explain the result.",
+    "crumbs": [
+      "Home",
+      "Morning Session",
+      "Web knowledge scales the pattern"
+    ]
+  },
+  {
+    "objectID": "morning/web-knowledge.html#good-demo-prompts",
+    "href": "morning/web-knowledge.html#good-demo-prompts",
+    "title": "Web knowledge scales the pattern",
+    "section": "Good demo prompts",
+    "text": "Good demo prompts\n\nWhat does this page say about the service scope\nSummarize the key facts in five bullets\nWhat information is still missing for a customer decision",
+    "crumbs": [
+      "Home",
+      "Morning Session",
+      "Web knowledge scales the pattern"
+    ]
+  },
+  {
+    "objectID": "slides/afternoon.html#the-afternoon-should-make-mcp-feel-buildable",
+    "href": "slides/afternoon.html#the-afternoon-should-make-mcp-feel-buildable",
+    "title": "Afternoon Session",
+    "section": "The afternoon should make MCP feel buildable",
+    "text": "The afternoon should make MCP feel buildable\n\n\n\n\nSet the expectation: this is not protocol theory. This is a build story from Python function to usable endpoint.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Afternoon Session"
+    ]
+  },
+  {
+    "objectID": "slides/afternoon.html#one-architecture-picture-beats-a-long-definition",
+    "href": "slides/afternoon.html#one-architecture-picture-beats-a-long-definition",
+    "title": "Afternoon Session",
+    "section": "One architecture picture beats a long definition",
+    "text": "One architecture picture beats a long definition\nflowchart LR\n    A(Copilot Studio) --&gt; B(Remote MCP endpoint)\n    B --&gt; C(FastMCP server)\n    C --&gt; D(Public APIs)\n\nWalk left to right. Keep the words client and server, but do not dwell on formalism yet.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Afternoon Session"
+    ]
+  },
+  {
+    "objectID": "slides/afternoon.html#uv-keeps-the-environment-calm",
+    "href": "slides/afternoon.html#uv-keeps-the-environment-calm",
+    "title": "Afternoon Session",
+    "section": "uv keeps the environment calm",
+    "text": "uv keeps the environment calm\n\n\nuv lock\nuv sync\nuv run --directory .\\mcp-servers\\hello-world hello-world-server\n\n\nWhy it helps\n\nfewer setup surprises\nrepeatable commands\ngood live-demo rhythm\n\n\n\n\nTell the room they do not need to memorize many commands. The repetition is part of the teaching design.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Afternoon Session"
+    ]
+  },
+  {
+    "objectID": "slides/afternoon.html#mcp-concepts-should-stay-concrete",
+    "href": "slides/afternoon.html#mcp-concepts-should-stay-concrete",
+    "title": "Afternoon Session",
+    "section": "MCP concepts should stay concrete",
+    "text": "MCP concepts should stay concrete\n\n\n\nTool\nCall a function\n\n\n\nResource\nRead useful data\n\n\n\nPrompt\nReuse task framing\n\n\n\nMake it explicit that the class will mostly build tools. That keeps the scope manageable and visible.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Afternoon Session"
+    ]
+  },
+  {
+    "objectID": "slides/afternoon.html#a-tiny-server-makes-the-pattern-visible",
+    "href": "slides/afternoon.html#a-tiny-server-makes-the-pattern-visible",
+    "title": "Afternoon Session",
+    "section": "A tiny server makes the pattern visible",
+    "text": "A tiny server makes the pattern visible\nfrom mcp.server.fastmcp import FastMCP\n\nmcp = FastMCP(\"hello-world\")\n\n@mcp.tool()\ndef ping(name: str) -&gt; str:\n    \"\"\"Return a simple greeting.\"\"\"\n    return f\"Hello, {name}!\"\n\nPause here and ask the room which lines are ordinary Python and which line changes the role of the function.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Afternoon Session"
+    ]
+  },
+  {
+    "objectID": "slides/afternoon.html#the-decorator-is-the-turning-point",
+    "href": "slides/afternoon.html#the-decorator-is-the-turning-point",
+    "title": "Afternoon Session",
+    "section": "The decorator is the turning point",
+    "text": "The decorator is the turning point\nfrom mcp.server.fastmcp import FastMCP\n\nmcp = FastMCP(\"hello-world\")\n\n@mcp.tool()\ndef ping(name: str) -&gt; str:\n    \"\"\"Return a simple greeting.\"\"\"\n    return f\"Hello, {name}!\"\n\n\n\n\n\n\nTeaching line\n\n\n@mcp.tool() is the moment a normal function becomes a discoverable capability.\n\n\n\n\nSpend time on this slide. It is the mental bridge most attendees need.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Afternoon Session"
+    ]
+  },
+  {
+    "objectID": "slides/afternoon.html#fastmcp-removes-protocol-plumbing-from-the-first-lesson",
+    "href": "slides/afternoon.html#fastmcp-removes-protocol-plumbing-from-the-first-lesson",
+    "title": "Afternoon Session",
+    "section": "FastMCP removes protocol plumbing from the first lesson",
+    "text": "FastMCP removes protocol plumbing from the first lesson\n\n\n\nIt handles\n\nschema generation\nargument validation\nprotocol wiring\n\n\n\n\nThat lets us teach\n\nnaming\ntool design\nresponse shape\n\n\n\n\nEmphasize that abstractions are helping us teach the right layer first, not hiding important concepts forever.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Afternoon Session"
+    ]
+  },
+  {
+    "objectID": "slides/afternoon.html#two-small-tools-are-enough-for-a-walkthrough",
+    "href": "slides/afternoon.html#two-small-tools-are-enough-for-a-walkthrough",
+    "title": "Afternoon Session",
+    "section": "Two small tools are enough for a walkthrough",
+    "text": "Two small tools are enough for a walkthrough\nflowchart LR\n    A(Lookup tool) --&gt; C(Useful demo)\n    B(Status or data tool) --&gt; C\n\n\n\n\n\n\nCanonical shape\n\n\nOne simple lookup plus one live-data or status tool is enough to teach discovery, invocation, and deployment.\n\n\n\n\nKeep the class away from over-engineering. The goal is a pattern the room can reuse, not a large application.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Afternoon Session"
+    ]
+  },
+  {
+    "objectID": "slides/afternoon.html#local-inspection-should-happen-before-hosting",
+    "href": "slides/afternoon.html#local-inspection-should-happen-before-hosting",
+    "title": "Afternoon Session",
+    "section": "Local inspection should happen before hosting",
+    "text": "Local inspection should happen before hosting\n\n\n\n\n\nInspect for\n\ntool names\ndescriptions\nparameters\noutput shape\n\n\n\n\nSay clearly that a bad local loop becomes a worse cloud loop. Validate discoverability before deployment.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Afternoon Session"
+    ]
+  },
+  {
+    "objectID": "slides/afternoon.html#deployment-should-feel-like-packaging-not-magic",
+    "href": "slides/afternoon.html#deployment-should-feel-like-packaging-not-magic",
+    "title": "Afternoon Session",
+    "section": "Deployment should feel like packaging, not magic",
+    "text": "Deployment should feel like packaging, not magic\nflowchart LR\n    A(Local project) --&gt; B(Container image)\n    B --&gt; C(Container Apps)\n    C --&gt; D(Remote endpoint)\n\nThe deployment story should stay linear. If the room loses the story here, the Azure steps will feel random.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Afternoon Session"
+    ]
+  },
+  {
+    "objectID": "slides/afternoon.html#azure-needs-one-clean-visual-anchor",
+    "href": "slides/afternoon.html#azure-needs-one-clean-visual-anchor",
+    "title": "Afternoon Session",
+    "section": "Azure needs one clean visual anchor",
+    "text": "Azure needs one clean visual anchor\n\n\nReplace this placeholder with your own Azure screenshot if you have one. Use it to keep the deployment explanation concrete.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Afternoon Session"
+    ]
+  },
+  {
+    "objectID": "slides/afternoon.html#connection-back-to-copilot-studio-closes-the-loop",
+    "href": "slides/afternoon.html#connection-back-to-copilot-studio-closes-the-loop",
+    "title": "Afternoon Session",
+    "section": "Connection back to Copilot Studio closes the loop",
+    "text": "Connection back to Copilot Studio closes the loop\nflowchart LR\n    A(Hosted server) --&gt; B(Connection setup)\n    B --&gt; C(Agent can call tools)\n    C --&gt; D(User sees value)\n\n\n\n\n\n\nWhy this matters\n\n\nThis is the moment the protocol stops feeling abstract.\n\n\n\n\nFrame this as the payoff slide. The room has now seen a full path from code to capability.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Afternoon Session"
+    ]
+  },
+  {
+    "objectID": "slides/afternoon.html#the-final-discussion-should-stay-practical",
+    "href": "slides/afternoon.html#the-final-discussion-should-stay-practical",
+    "title": "Afternoon Session",
+    "section": "The final discussion should stay practical",
+    "text": "The final discussion should stay practical\n\n\n\nInternal lookups\nWhat should become a tool\n\n\n\nPublic data blends\nWhat outside signal helps\n\n\n\nGovernance\nWhat still needs approval\n\n\n\nEnd by translating the demo into attendee context. That is where future adoption ideas usually appear.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Afternoon Session"
+    ]
+  },
+  {
+    "objectID": "slides/afternoon.html#the-takeaway-is-that-mcp-is-approachable",
+    "href": "slides/afternoon.html#the-takeaway-is-that-mcp-is-approachable",
+    "title": "Afternoon Session",
+    "section": "The takeaway is that MCP is approachable",
+    "text": "The takeaway is that MCP is approachable\n\n\n\n\n\n\nFinal message\n\n\nThe goal is not protocol expertise. The goal is confidence that this can be built, tested, and connected.\n\n\n\n\nClose with confidence and restraint. The room should leave feeling that the path is understandable and repeatable.",
+    "crumbs": [
+      "Home",
+      "Presentations",
+      "Afternoon Session"
+    ]
+  }
+]

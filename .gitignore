@@ -154,6 +154,11 @@ venv.bak/
 # mkdocs documentation
 /site
 
+# Quarto
+/.quarto/
+**/*.quarto_ipynb
+website/.sass-cache/
+
 # mypy
 .mypy_cache/
 .dmypy.json

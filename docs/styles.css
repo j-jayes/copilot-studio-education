@@ -1,0 +1,143 @@
+:root {
+  --site-sand: #f7f3eb;
+  --site-ink: #1f2a30;
+  --site-rust: #bb5a3c;
+  --site-sea: #1c7283;
+  --site-leaf: #698f61;
+  --site-card: rgba(255, 255, 255, 0.82);
+}
+
+body {
+  background:
+    radial-gradient(circle at top right, rgba(187, 90, 60, 0.12), transparent 28%),
+    radial-gradient(circle at left center, rgba(28, 114, 131, 0.12), transparent 24%),
+    linear-gradient(180deg, #f7f3eb 0%, #f4efe5 100%);
+}
+
+.navbar {
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(31, 42, 48, 0.08);
+}
+
+.quarto-title-block .quarto-title-banner {
+  background: linear-gradient(135deg, rgba(28, 114, 131, 0.95), rgba(187, 90, 60, 0.88));
+  color: #fff;
+}
+
+.hero-panel,
+.course-card,
+.resource-card,
+.choice-card,
+.lesson-panel,
+.visual-panel,
+.timeline-panel {
+  background: var(--site-card);
+  border: 1px solid rgba(31, 42, 48, 0.08);
+  border-radius: 18px;
+  box-shadow: 0 18px 45px rgba(31, 42, 48, 0.08);
+  padding: 1.25rem;
+}
+
+.course-grid,
+.choice-grid,
+.resource-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.course-grid {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.choice-grid,
+.resource-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.lesson-grid,
+.visual-grid,
+.timeline-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.lesson-grid {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.visual-grid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  align-items: stretch;
+}
+
+.timeline-grid {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.kicker {
+  color: var(--site-rust);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.callout.callout-style-default {
+  border-radius: 14px;
+}
+
+.placeholder-figure {
+  margin: 1.25rem 0;
+}
+
+.placeholder-figure img,
+.visual-panel img {
+  width: 100%;
+  border-radius: 18px;
+  border: 1px solid rgba(31, 42, 48, 0.08);
+  box-shadow: 0 18px 42px rgba(31, 42, 48, 0.12);
+}
+
+.metric {
+  color: var(--site-rust);
+  display: block;
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 0.35rem;
+}
+
+.microcopy {
+  color: rgba(31, 42, 48, 0.78);
+  font-size: 0.96rem;
+}
+
+.reveal .slide .placeholder-figure img,
+.reveal .slide .visual-panel img {
+  max-height: 380px;
+  object-fit: cover;
+}
+
+.reveal .slide .kicker {
+  color: #bb5a3c;
+}
+
+.reveal .slide .lesson-panel,
+.reveal .slide .visual-panel,
+.reveal .slide .timeline-panel {
+  background: rgba(255, 250, 242, 0.84);
+}
+
+.sidebar nav[role="doc-toc"] ul,
+#quarto-sidebar .sidebar-item-container .sidebar-item-text {
+  font-size: 0.96rem;
+}
+
+@media (max-width: 768px) {
+  .quarto-title-block .quarto-title-banner {
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+  }
+}

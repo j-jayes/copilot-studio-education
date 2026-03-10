@@ -1,0 +1,40 @@
+---
+title: "A smooth environment keeps the class moving"
+---
+
+## Outcome
+
+Advanced users leave setup mode quickly and get to runnable Python with minimal friction.
+
+:::: {.lesson-grid}
+::: {.lesson-panel}
+### VS Code
+
+Use one editor for Quarto, Python, terminal work, and Copilot support.
+:::
+
+::: {.lesson-panel}
+### `uv`
+
+Create environments and run projects with short, repeatable commands.
+:::
+
+::: {.lesson-panel}
+### Copilot
+
+Use it as a coding assistant, not as a replacement for understanding the build.
+:::
+::::
+
+```mermaid
+flowchart LR
+    A(Install tools) --> B(Create project)
+    B --> C(Sync dependencies)
+    C --> D(Run sample server)
+```
+
+::: {.callout-note}
+## Baseline commands
+
+Use `uv lock`, `uv sync`, and `uv run` as the repeated rhythm for the afternoon.
+:::

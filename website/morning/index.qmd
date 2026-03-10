@@ -1,0 +1,82 @@
+---
+title: "Morning Track"
+---
+
+## Goal
+
+Give every attendee enough confidence to create, ground, and publish an agent in Copilot Studio.
+
+:::: {.lesson-grid}
+::: {.lesson-panel}
+### 1. [Start fast and reduce friction](sign-in-and-tour.qmd)
+
+Get everyone logged in and oriented without turning the opening into a lecture.
+:::
+
+::: {.lesson-panel}
+### 2. [Instructions create the first win](first-agent.qmd)
+
+Show how role, goals, and boundaries shape the first agent.
+:::
+
+::: {.lesson-panel}
+### 3. [Good files beat clever prompts](file-grounding.qmd)
+
+Use documents and spreadsheets to show visible grounding value.
+:::
+
+::: {.lesson-panel}
+### 4. [Web knowledge scales the pattern](web-knowledge.qmd)
+
+Turn a public page into a knowledge source and test it live.
+:::
+
+::: {.lesson-panel}
+### 5. [MCP explains how agents do more](mcp-overview.qmd)
+
+Introduce the concept without drowning the room in protocol details.
+:::
+
+::: {.lesson-panel}
+### 6. [Publishing turns a demo into a product](publishing-channels.qmd)
+
+Explain where agents go after the build phase.
+:::
+::::
+
+## Attendee Options
+
+:::: {.choice-grid}
+::: {.choice-card}
+### Option A
+
+Work with a document about Swedish electricity zones.
+:::
+
+::: {.choice-card}
+### Option B
+
+Work with a spreadsheet on installed solar capacity.
+:::
+
+::: {.choice-card}
+### Option C
+
+Work with a pricing dataset over time.
+:::
+::::
+
+## Outputs
+
+By lunch, each attendee should have:
+
+- one working agent
+- one grounded data source
+- one web-based knowledge configuration
+- one publishing target they understand
+
+::: {.callout-tip}
+## Teaching rhythm
+
+Keep the morning hands-on, forgiving, and fast. The purpose is momentum.
+:::

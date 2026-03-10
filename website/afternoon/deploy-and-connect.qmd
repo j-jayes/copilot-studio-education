@@ -1,0 +1,45 @@
+---
+title: "Deployment should feel like the next step"
+---
+
+## Outcome
+
+Participants understand the shape of moving from a local server to a hosted endpoint that Copilot Studio can connect to.
+
+::: {.placeholder-figure}
+![](../assets/placeholders/azure-deploy.svg)
+:::
+
+```mermaid
+flowchart LR
+    A(Local project) --> B(Container image)
+    B --> C(Container Apps)
+    C --> D(Remote endpoint)
+    D --> E(Copilot Studio)
+```
+
+:::: {.lesson-grid}
+::: {.lesson-panel}
+### Local first
+
+If the server is unclear locally, hosting will not fix it.
+:::
+
+::: {.lesson-panel}
+### Container second
+
+Package the working server, not the half-working one.
+:::
+
+::: {.lesson-panel}
+### Connection last
+
+Only connect after the endpoint contract is understood.
+:::
+::::
+
+::: {.callout-important}
+## Keep the story linear
+
+The room should understand why each deployment step exists before the Azure details show up.
+:::

@@ -1,0 +1,44 @@
+---
+title: "Web knowledge scales the pattern"
+---
+
+## Outcome
+
+Attendees understand why a web source becomes a durable knowledge base when a single file is too static or too narrow.
+
+:::: {.visual-grid}
+::: {.visual-panel}
+### Use a public page when
+
+- the information already lives on the web
+- updates happen outside the class repo
+- attendees need a realistic grounding example
+:::
+
+::: {.visual-panel}
+### Watch for these issues
+
+- navigation clutter
+- content that is too promotional
+- pages with weak factual structure
+:::
+::::
+
+```mermaid
+flowchart LR
+    A(Public page) --> B(Index content)
+    B --> C(Create knowledge source)
+    C --> D(Test grounded questions)
+```
+
+::: {.callout-note}
+## Design principle
+
+Pick pages with stable factual content, not flashy landing pages. The cleaner the page, the easier it is to explain the result.
+:::
+
+## Good demo prompts
+
+- What does this page say about the service scope
+- Summarize the key facts in five bullets
+- What information is still missing for a customer decision

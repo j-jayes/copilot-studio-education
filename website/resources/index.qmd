@@ -1,0 +1,34 @@
+---
+title: "Resources"
+---
+
+## What Lives Here
+
+This section points attendees and instructors to the reusable assets behind the course.
+
+:::: {.resource-grid}
+::: {.resource-card}
+### Quarto references
+
+Curated notes on websites, Revealjs, code highlighting, and GitHub Pages live in `.github/quarto-docs/`.
+:::
+
+::: {.resource-card}
+### Public data options
+
+The exercise datasets live under `data/` and `attendee-assets/knowledge-sources/`.
+:::
+
+::: {.resource-card}
+### Starter servers
+
+Python MCP examples and templates live under `mcp-servers/`.
+:::
+::::
+
+## External References
+
+- [Quarto website docs](https://quarto.org/docs/websites/)
+- [Quarto Revealjs docs](https://quarto.org/docs/presentations/revealjs/)
+- [Model Context Protocol](https://modelcontextprotocol.io/)
+- [uv documentation](https://docs.astral.sh/uv/)

@@ -1,0 +1,56 @@
+---
+title: "Course Overview"
+---
+
+## Audience Split
+
+The day is designed for a mixed audience:
+
+- all attendees in the morning
+- advanced users in the afternoon
+
+## Session Map
+
+| Step | Focus | Intended outcome |
+| --- | --- | --- |
+| 1 | Sign in and orient | Everyone can access the interface and understand the main surfaces |
+| 2 | First agent | Everyone creates a working agent with instructions only |
+| 3 | Files as knowledge | Everyone connects a document or spreadsheet |
+| 4 | Web knowledge | Everyone configures a website-backed knowledge source |
+| 5 | Available MCP servers | Everyone understands what MCP adds to agents |
+| 6 | Publishing channels | Everyone sees how agents can be shared |
+| 7 | Dev environment | Advanced users install VS Code, `uv`, and Copilot |
+| 8 | Build an MCP server | Advanced users expose two tools from Python |
+| 9 | Deploy on Azure | Advanced users understand the deployment shape |
+| 10 | Connect to Copilot Studio | Advanced users attach the server as a remote capability |
+| 11 | Brainstorming | Teams sketch their own internal use cases |
+
+## Variation Strategy
+
+We want variety in selected moments rather than forcing every attendee through the exact same assets.
+
+:::: {.choice-grid}
+::: {.choice-card}
+### File grounding
+
+Attendees can choose between a Word brief, a spreadsheet about solar capacity, or a time-series pricing file.
+:::
+
+::: {.choice-card}
+### Website grounding
+
+Attendees can test a utility-style public website, a policy-style page, or a facts-and-FAQ page.
+:::
+
+::: {.choice-card}
+### MCP examples
+
+The afternoon can use one canonical walkthrough while still offering alternative template servers afterwards.
+:::
+::::
+
+::: {.callout-note}
+## Public repo rule
+
+The site and sample content should stay generic and reusable. The real client context informs the examples, but it should not appear by name in the repo.
+:::

@@ -1,0 +1,15 @@
+format:
+  revealjs:
+    theme:
+      - default
+      - ../assets/custom.scss
+    slide-number: true
+    progress: true
+    history: false
+    controls: true
+    transition: fade
+    smaller: true
+    scrollable: true
+    code-block-height: 560px
+    footer: "Copilot Studio Education"
+    incremental: false

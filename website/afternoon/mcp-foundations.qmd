@@ -1,0 +1,46 @@
+---
+title: "MCP concepts should feel concrete"
+---
+
+## Outcome
+
+Participants understand the small number of protocol concepts that matter for building a first server.
+
+::: {.placeholder-figure}
+![](../assets/placeholders/mcp-architecture.svg)
+:::
+
+```mermaid
+flowchart LR
+    A(Client) --> B(MCP server)
+    B --> C(Tool)
+    B --> D(Resource)
+    B --> E(Prompt)
+    B --> F(Transport)
+```
+
+:::: {.lesson-grid}
+::: {.lesson-panel}
+### Tool
+
+A function the client can call.
+:::
+
+::: {.lesson-panel}
+### Resource
+
+Data the client can retrieve.
+:::
+
+::: {.lesson-panel}
+### Prompt
+
+Reusable guidance that shapes a task.
+:::
+::::
+
+::: {.callout-tip}
+## Teaching boundary
+
+Concentrate on tools first. They produce the fastest visible value during a live class.
+:::
