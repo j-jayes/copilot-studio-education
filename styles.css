@@ -1,27 +1,6 @@
 :root {
-  --site-sand: #f7f3eb;
-  --site-ink: #1f2a30;
-  --site-rust: #bb5a3c;
-  --site-sea: #1c7283;
-  --site-leaf: #698f61;
-  --site-card: rgba(255, 255, 255, 0.82);
-}
-
-body {
-  background:
-    radial-gradient(circle at top right, rgba(187, 90, 60, 0.12), transparent 28%),
-    radial-gradient(circle at left center, rgba(28, 114, 131, 0.12), transparent 24%),
-    linear-gradient(180deg, #f7f3eb 0%, #f4efe5 100%);
-}
-
-.navbar {
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(31, 42, 48, 0.08);
-}
-
-.quarto-title-block .quarto-title-banner {
-  background: linear-gradient(135deg, rgba(28, 114, 131, 0.95), rgba(187, 90, 60, 0.88));
-  color: #fff;
+  --course-panel-bg: rgba(255, 255, 255, 0.8);
+  --course-panel-border: rgba(0, 0, 0, 0.08);
 }
 
 .hero-panel,
@@ -31,10 +10,10 @@ body {
 .lesson-panel,
 .visual-panel,
 .timeline-panel {
-  background: var(--site-card);
-  border: 1px solid rgba(31, 42, 48, 0.08);
-  border-radius: 18px;
-  box-shadow: 0 18px 45px rgba(31, 42, 48, 0.08);
+  background: var(--course-panel-bg);
+  border: 1px solid var(--course-panel-border);
+  border-radius: 0.5rem;
+  box-shadow: 0 0.35rem 1rem rgba(0, 0, 0, 0.06);
   padding: 1.25rem;
 }
 
@@ -77,7 +56,7 @@ body {
 }
 
 .kicker {
-  color: var(--site-rust);
+  color: var(--bs-primary);
   font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -85,7 +64,7 @@ body {
 }
 
 .callout.callout-style-default {
-  border-radius: 14px;
+  border-radius: 0.5rem;
 }
 
 .placeholder-figure {
@@ -95,13 +74,13 @@ body {
 .placeholder-figure img,
 .visual-panel img {
   width: 100%;
-  border-radius: 18px;
-  border: 1px solid rgba(31, 42, 48, 0.08);
-  box-shadow: 0 18px 42px rgba(31, 42, 48, 0.12);
+  border-radius: 0.5rem;
+  border: 1px solid var(--course-panel-border);
+  box-shadow: 0 0.35rem 1rem rgba(0, 0, 0, 0.08);
 }
 
 .metric {
-  color: var(--site-rust);
+  color: var(--bs-primary);
   display: block;
   font-size: 2.4rem;
   font-weight: 800;
@@ -110,7 +89,7 @@ body {
 }
 
 .microcopy {
-  color: rgba(31, 42, 48, 0.78);
+  color: rgba(0, 0, 0, 0.68);
   font-size: 0.96rem;
 }
 
@@ -120,14 +99,10 @@ body {
   object-fit: cover;
 }
 
-.reveal .slide .kicker {
-  color: #bb5a3c;
-}
-
 .reveal .slide .lesson-panel,
 .reveal .slide .visual-panel,
 .reveal .slide .timeline-panel {
-  background: rgba(255, 250, 242, 0.84);
+  background: rgba(255, 255, 255, 0.84);
 }
 
 .sidebar nav[role="doc-toc"] ul,
